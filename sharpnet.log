@@ -1,0 +1,970 @@
+2024-09-01 15:10:40,722 - __main__ - INFO - Number of Samples: 10
+2024-09-01 15:10:40,722 - __main__ - INFO - Sample: Data(x=[2539, 3], y=[2539], pos=[2539, 3], category=[1])
+2024-09-01 15:10:40,722 - __main__ - INFO - Number of points: 2539, Dimension of each point: 3
+2024-09-01 15:42:26,287 - __main__ - INFO - Number of Samples: 10
+2024-09-01 15:42:26,287 - __main__ - INFO - Sample: Data(x=[2606, 3], y=[2606], pos=[2606, 3], category=[1])
+2024-09-01 15:42:26,287 - __main__ - INFO - Number of points: 2606, Dimension of each point: 3
+2024-09-01 15:48:15,464 - __main__ - INFO - Number of Samples: 10
+2024-09-01 15:48:15,464 - __main__ - INFO - Sample: Data(x=[2523, 3], y=[2523], pos=[2523, 3], category=[1])
+2024-09-01 15:48:15,464 - __main__ - INFO - Number of points: 2523, Dimension of each point: 3
+2024-09-01 15:48:15,532 - __main__ - INFO - Number of points: 2550, Dimension of each point: 3
+2024-09-01 15:48:15,591 - __main__ - INFO - Number of Training Samples: 8
+2024-09-01 15:48:15,591 - __main__ - INFO - Number of Test Samples: 2
+2024-09-01 15:48:15,591 - __main__ - INFO - Train dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 15:48:15,592 - __main__ - INFO - Test dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 15:48:15,700 - __main__ - INFO - Original sample size: torch.Size([2048, 3])
+2024-09-01 15:48:15,701 - __main__ - INFO - Transformed sample size: torch.Size([2048, 3])
+2024-09-01 15:49:59,372 - __main__ - INFO - Number of Samples: 10
+2024-09-01 15:49:59,372 - __main__ - INFO - Sample: Data(x=[2603, 3], y=[2603], pos=[2603, 3], category=[1])
+2024-09-01 15:49:59,372 - __main__ - INFO - Number of points: 2603, Dimension of each point: 3
+2024-09-01 15:49:59,439 - __main__ - INFO - Number of points: 2537, Dimension of each point: 3
+2024-09-01 15:49:59,511 - __main__ - INFO - Number of Training Samples: 8
+2024-09-01 15:49:59,511 - __main__ - INFO - Number of Test Samples: 2
+2024-09-01 15:49:59,512 - __main__ - INFO - Train dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 15:49:59,512 - __main__ - INFO - Test dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 15:49:59,621 - __main__ - INFO - Original sample size: torch.Size([2048, 3])
+2024-09-01 15:49:59,621 - __main__ - INFO - Transformed sample size: torch.Size([2048, 3])
+2024-09-01 15:52:18,355 - __main__ - INFO - Number of Samples: 10
+2024-09-01 15:52:18,356 - __main__ - INFO - Sample: Data(x=[2468, 3], y=[2468], pos=[2468, 3], category=[1])
+2024-09-01 15:52:18,356 - __main__ - INFO - Number of points: 2468, Dimension of each point: 3
+2024-09-01 15:52:18,424 - __main__ - INFO - Number of points: 2536, Dimension of each point: 3
+2024-09-01 15:52:18,552 - __main__ - INFO - Number of Training Samples: 8
+2024-09-01 15:52:18,552 - __main__ - INFO - Number of Test Samples: 2
+2024-09-01 15:52:18,553 - __main__ - INFO - Train dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 15:52:18,553 - __main__ - INFO - Test dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 15:52:18,662 - __main__ - INFO - Original sample size: torch.Size([2048, 3])
+2024-09-01 15:52:18,662 - __main__ - INFO - Transformed sample size: torch.Size([2048, 3])
+2024-09-01 15:52:29,615 - __main__ - INFO - Epoch [0/50], Loss G: 1738.0686, Loss D_A: 0.4330, Loss D_B: 0.6489
+2024-09-01 15:52:29,615 - __main__ - INFO - Chamfer Distance A: 10.5715, Chamfer Distance B: 1659.0948, MMD-CD: 10.5715
+2024-09-01 15:52:29,737 - __main__ - INFO - Epoch [1/50], Loss G: 1737.1866, Loss D_A: 0.4358, Loss D_B: 0.6465
+2024-09-01 15:52:29,737 - __main__ - INFO - Chamfer Distance A: 10.6808, Chamfer Distance B: 1657.9506, MMD-CD: 10.6808
+2024-09-01 15:52:29,847 - __main__ - INFO - Epoch [2/50], Loss G: 1738.2222, Loss D_A: 3.0680, Loss D_B: 0.7494
+2024-09-01 15:52:29,848 - __main__ - INFO - Chamfer Distance A: 10.4829, Chamfer Distance B: 1658.4961, MMD-CD: 10.4829
+2024-09-01 15:52:29,949 - __main__ - INFO - Epoch [3/50], Loss G: 1736.3651, Loss D_A: 1.2031, Loss D_B: 0.9198
+2024-09-01 15:52:29,949 - __main__ - INFO - Chamfer Distance A: 10.7680, Chamfer Distance B: 1658.3334, MMD-CD: 10.7680
+2024-09-01 15:52:30,050 - __main__ - INFO - Epoch [4/50], Loss G: 1735.9333, Loss D_A: 0.4793, Loss D_B: 0.4709
+2024-09-01 15:52:30,050 - __main__ - INFO - Chamfer Distance A: 10.6408, Chamfer Distance B: 1658.2925, MMD-CD: 10.6408
+2024-09-01 15:52:30,148 - __main__ - INFO - Epoch [5/50], Loss G: 1737.0704, Loss D_A: 0.3396, Loss D_B: 0.4126
+2024-09-01 15:52:30,148 - __main__ - INFO - Chamfer Distance A: 10.5123, Chamfer Distance B: 1659.5204, MMD-CD: 10.5123
+2024-09-01 15:52:30,260 - __main__ - INFO - Epoch [6/50], Loss G: 1736.7446, Loss D_A: 0.4266, Loss D_B: 0.3541
+2024-09-01 15:52:30,260 - __main__ - INFO - Chamfer Distance A: 10.5586, Chamfer Distance B: 1659.4268, MMD-CD: 10.5586
+2024-09-01 15:52:30,370 - __main__ - INFO - Epoch [7/50], Loss G: 1588.0275, Loss D_A: 0.3942, Loss D_B: 0.4071
+2024-09-01 15:52:30,370 - __main__ - INFO - Chamfer Distance A: 8.0210, Chamfer Distance B: 1518.7931, MMD-CD: 8.0210
+2024-09-01 15:52:30,474 - __main__ - INFO - Epoch [8/50], Loss G: 1466.4078, Loss D_A: 0.3932, Loss D_B: 0.4063
+2024-09-01 15:52:30,474 - __main__ - INFO - Chamfer Distance A: 5.7644, Chamfer Distance B: 1404.1467, MMD-CD: 5.7644
+2024-09-01 15:52:30,586 - __main__ - INFO - Epoch [9/50], Loss G: 1377.5074, Loss D_A: 0.4177, Loss D_B: 0.3427
+2024-09-01 15:52:30,586 - __main__ - INFO - Chamfer Distance A: 4.2453, Chamfer Distance B: 1320.3353, MMD-CD: 4.2453
+2024-09-01 15:52:30,691 - __main__ - INFO - Epoch [10/50], Loss G: 1318.0245, Loss D_A: 0.4081, Loss D_B: 0.3098
+2024-09-01 15:52:30,691 - __main__ - INFO - Chamfer Distance A: 3.1829, Chamfer Distance B: 1264.5045, MMD-CD: 3.1829
+2024-09-01 15:52:30,783 - __main__ - INFO - Epoch [11/50], Loss G: 1279.7140, Loss D_A: 0.5522, Loss D_B: 0.7689
+2024-09-01 15:52:30,783 - __main__ - INFO - Chamfer Distance A: 2.8142, Chamfer Distance B: 1227.6199, MMD-CD: 2.8142
+2024-09-01 15:52:30,884 - __main__ - INFO - Epoch [12/50], Loss G: 1255.5204, Loss D_A: 0.6856, Loss D_B: 1.5156
+2024-09-01 15:52:30,884 - __main__ - INFO - Chamfer Distance A: 2.4945, Chamfer Distance B: 1203.6843, MMD-CD: 2.4945
+2024-09-01 15:52:30,987 - __main__ - INFO - Epoch [13/50], Loss G: 1240.0662, Loss D_A: 1.1720, Loss D_B: 0.5821
+2024-09-01 15:52:30,987 - __main__ - INFO - Chamfer Distance A: 2.5956, Chamfer Distance B: 1188.2804, MMD-CD: 2.5956
+2024-09-01 15:52:31,090 - __main__ - INFO - Epoch [14/50], Loss G: 1229.7683, Loss D_A: 0.7391, Loss D_B: 0.6027
+2024-09-01 15:52:31,090 - __main__ - INFO - Chamfer Distance A: 3.1098, Chamfer Distance B: 1177.7848, MMD-CD: 3.1098
+2024-09-01 15:52:31,197 - __main__ - INFO - Epoch [15/50], Loss G: 1221.5010, Loss D_A: 1.0810, Loss D_B: 0.4610
+2024-09-01 15:52:31,197 - __main__ - INFO - Chamfer Distance A: 2.8724, Chamfer Distance B: 1170.1173, MMD-CD: 2.8724
+2024-09-01 15:52:31,471 - __main__ - INFO - Epoch [16/50], Loss G: 1214.5789, Loss D_A: 0.7635, Loss D_B: 0.4674
+2024-09-01 15:52:31,471 - __main__ - INFO - Chamfer Distance A: 2.7124, Chamfer Distance B: 1164.2981, MMD-CD: 2.7124
+2024-09-01 15:52:31,559 - __main__ - INFO - Epoch [17/50], Loss G: 1208.9432, Loss D_A: 0.6506, Loss D_B: 0.3734
+2024-09-01 15:52:31,559 - __main__ - INFO - Chamfer Distance A: 2.3586, Chamfer Distance B: 1159.8685, MMD-CD: 2.3586
+2024-09-01 15:52:31,720 - __main__ - INFO - Epoch [18/50], Loss G: 1205.0807, Loss D_A: 0.5879, Loss D_B: 0.3357
+2024-09-01 15:52:31,720 - __main__ - INFO - Chamfer Distance A: 2.3490, Chamfer Distance B: 1156.3361, MMD-CD: 2.3490
+2024-09-01 15:52:31,810 - __main__ - INFO - Epoch [19/50], Loss G: 1201.9724, Loss D_A: 0.6129, Loss D_B: 0.3347
+2024-09-01 15:52:31,810 - __main__ - INFO - Chamfer Distance A: 2.0573, Chamfer Distance B: 1153.9058, MMD-CD: 2.0573
+2024-09-01 15:52:31,911 - __main__ - INFO - Epoch [20/50], Loss G: 1199.4850, Loss D_A: 0.4654, Loss D_B: 0.2847
+2024-09-01 15:52:31,912 - __main__ - INFO - Chamfer Distance A: 2.2514, Chamfer Distance B: 1151.2377, MMD-CD: 2.2514
+2024-09-01 15:52:32,015 - __main__ - INFO - Epoch [21/50], Loss G: 1197.9858, Loss D_A: 0.6052, Loss D_B: 0.2847
+2024-09-01 15:52:32,015 - __main__ - INFO - Chamfer Distance A: 2.1760, Chamfer Distance B: 1149.8168, MMD-CD: 2.1760
+2024-09-01 15:52:32,118 - __main__ - INFO - Epoch [22/50], Loss G: 1196.3569, Loss D_A: 0.5726, Loss D_B: 0.3121
+2024-09-01 15:52:32,118 - __main__ - INFO - Chamfer Distance A: 2.4561, Chamfer Distance B: 1147.7587, MMD-CD: 2.4561
+2024-09-01 15:52:32,222 - __main__ - INFO - Epoch [23/50], Loss G: 1195.9226, Loss D_A: 0.6613, Loss D_B: 0.2795
+2024-09-01 15:52:32,222 - __main__ - INFO - Chamfer Distance A: 2.6034, Chamfer Distance B: 1146.5105, MMD-CD: 2.6034
+2024-09-01 15:52:32,324 - __main__ - INFO - Epoch [24/50], Loss G: 1192.5646, Loss D_A: 0.5299, Loss D_B: 0.2816
+2024-09-01 15:52:32,324 - __main__ - INFO - Chamfer Distance A: 1.9045, Chamfer Distance B: 1145.4069, MMD-CD: 1.9045
+2024-09-01 15:52:32,429 - __main__ - INFO - Epoch [25/50], Loss G: 1191.8726, Loss D_A: 0.4510, Loss D_B: 0.2888
+2024-09-01 15:52:32,429 - __main__ - INFO - Chamfer Distance A: 2.1665, Chamfer Distance B: 1144.0781, MMD-CD: 2.1665
+2024-09-01 15:52:32,532 - __main__ - INFO - Epoch [26/50], Loss G: 1190.5920, Loss D_A: 0.4619, Loss D_B: 0.2826
+2024-09-01 15:52:32,532 - __main__ - INFO - Chamfer Distance A: 2.0067, Chamfer Distance B: 1143.3661, MMD-CD: 2.0067
+2024-09-01 15:52:32,638 - __main__ - INFO - Epoch [27/50], Loss G: 1188.9854, Loss D_A: 0.4068, Loss D_B: 0.2802
+2024-09-01 15:52:32,638 - __main__ - INFO - Chamfer Distance A: 1.7695, Chamfer Distance B: 1142.4618, MMD-CD: 1.7695
+2024-09-01 15:52:32,742 - __main__ - INFO - Epoch [28/50], Loss G: 1187.8652, Loss D_A: 0.3884, Loss D_B: 0.2790
+2024-09-01 15:52:32,742 - __main__ - INFO - Chamfer Distance A: 1.7242, Chamfer Distance B: 1141.5118, MMD-CD: 1.7242
+2024-09-01 15:52:32,844 - __main__ - INFO - Epoch [29/50], Loss G: 1187.3400, Loss D_A: 0.3669, Loss D_B: 0.2744
+2024-09-01 15:52:32,844 - __main__ - INFO - Chamfer Distance A: 1.7235, Chamfer Distance B: 1140.9784, MMD-CD: 1.7235
+2024-09-01 15:52:32,948 - __main__ - INFO - Epoch [30/50], Loss G: 1186.6750, Loss D_A: 0.5018, Loss D_B: 0.2765
+2024-09-01 15:52:32,948 - __main__ - INFO - Chamfer Distance A: 1.7833, Chamfer Distance B: 1140.1393, MMD-CD: 1.7833
+2024-09-01 15:52:33,052 - __main__ - INFO - Epoch [31/50], Loss G: 1186.3512, Loss D_A: 0.3263, Loss D_B: 0.2704
+2024-09-01 15:52:33,052 - __main__ - INFO - Chamfer Distance A: 1.9038, Chamfer Distance B: 1139.5817, MMD-CD: 1.9038
+2024-09-01 15:52:33,158 - __main__ - INFO - Epoch [32/50], Loss G: 1186.0137, Loss D_A: 0.3087, Loss D_B: 0.2759
+2024-09-01 15:52:33,158 - __main__ - INFO - Chamfer Distance A: 1.9460, Chamfer Distance B: 1139.1993, MMD-CD: 1.9460
+2024-09-01 15:52:33,262 - __main__ - INFO - Epoch [33/50], Loss G: 1185.3688, Loss D_A: 0.4817, Loss D_B: 0.2549
+2024-09-01 15:52:33,262 - __main__ - INFO - Chamfer Distance A: 1.8761, Chamfer Distance B: 1138.8015, MMD-CD: 1.8761
+2024-09-01 15:52:33,366 - __main__ - INFO - Epoch [34/50], Loss G: 1184.4707, Loss D_A: 0.3591, Loss D_B: 0.2915
+2024-09-01 15:52:33,366 - __main__ - INFO - Chamfer Distance A: 1.7093, Chamfer Distance B: 1138.2947, MMD-CD: 1.7093
+2024-09-01 15:52:33,470 - __main__ - INFO - Epoch [35/50], Loss G: 1184.1897, Loss D_A: 0.3707, Loss D_B: 0.2309
+2024-09-01 15:52:33,470 - __main__ - INFO - Chamfer Distance A: 1.6793, Chamfer Distance B: 1137.9479, MMD-CD: 1.6793
+2024-09-01 15:52:33,592 - __main__ - INFO - Epoch [36/50], Loss G: 1183.3312, Loss D_A: 0.3558, Loss D_B: 0.3922
+2024-09-01 15:52:33,592 - __main__ - INFO - Chamfer Distance A: 1.5374, Chamfer Distance B: 1137.5878, MMD-CD: 1.5374
+2024-09-01 15:52:33,693 - __main__ - INFO - Epoch [37/50], Loss G: 1183.3567, Loss D_A: 0.4912, Loss D_B: 0.2306
+2024-09-01 15:52:33,693 - __main__ - INFO - Chamfer Distance A: 1.6634, Chamfer Distance B: 1137.1715, MMD-CD: 1.6634
+2024-09-01 15:52:33,795 - __main__ - INFO - Epoch [38/50], Loss G: 1183.2096, Loss D_A: 0.3055, Loss D_B: 0.6095
+2024-09-01 15:52:33,795 - __main__ - INFO - Chamfer Distance A: 1.7765, Chamfer Distance B: 1136.9136, MMD-CD: 1.7765
+2024-09-01 15:52:33,900 - __main__ - INFO - Epoch [39/50], Loss G: 1182.8398, Loss D_A: 0.4065, Loss D_B: 0.3056
+2024-09-01 15:52:33,900 - __main__ - INFO - Chamfer Distance A: 1.6759, Chamfer Distance B: 1136.6744, MMD-CD: 1.6759
+2024-09-01 15:52:34,003 - __main__ - INFO - Epoch [40/50], Loss G: 1182.4543, Loss D_A: 0.3748, Loss D_B: 0.3232
+2024-09-01 15:52:34,003 - __main__ - INFO - Chamfer Distance A: 1.6177, Chamfer Distance B: 1136.4164, MMD-CD: 1.6177
+2024-09-01 15:52:34,109 - __main__ - INFO - Epoch [41/50], Loss G: 1182.8339, Loss D_A: 0.3888, Loss D_B: 0.3641
+2024-09-01 15:52:34,109 - __main__ - INFO - Chamfer Distance A: 2.0075, Chamfer Distance B: 1136.1003, MMD-CD: 2.0075
+2024-09-01 15:52:34,214 - __main__ - INFO - Epoch [42/50], Loss G: 1182.4375, Loss D_A: 0.3837, Loss D_B: 0.2769
+2024-09-01 15:52:34,214 - __main__ - INFO - Chamfer Distance A: 1.8943, Chamfer Distance B: 1135.8774, MMD-CD: 1.8943
+2024-09-01 15:52:34,317 - __main__ - INFO - Epoch [43/50], Loss G: 1181.9619, Loss D_A: 0.3764, Loss D_B: 0.2774
+2024-09-01 15:52:34,317 - __main__ - INFO - Chamfer Distance A: 1.7764, Chamfer Distance B: 1135.6910, MMD-CD: 1.7764
+2024-09-01 15:52:34,421 - __main__ - INFO - Epoch [44/50], Loss G: 1181.4535, Loss D_A: 0.3740, Loss D_B: 0.3058
+2024-09-01 15:52:34,421 - __main__ - INFO - Chamfer Distance A: 1.7007, Chamfer Distance B: 1135.4496, MMD-CD: 1.7007
+2024-09-01 15:52:34,524 - __main__ - INFO - Epoch [45/50], Loss G: 1181.1600, Loss D_A: 0.3808, Loss D_B: 0.2819
+2024-09-01 15:52:34,524 - __main__ - INFO - Chamfer Distance A: 1.6318, Chamfer Distance B: 1135.2781, MMD-CD: 1.6318
+2024-09-01 15:52:34,627 - __main__ - INFO - Epoch [46/50], Loss G: 1181.1959, Loss D_A: 0.3817, Loss D_B: 0.2781
+2024-09-01 15:52:34,627 - __main__ - INFO - Chamfer Distance A: 1.7385, Chamfer Distance B: 1135.0769, MMD-CD: 1.7385
+2024-09-01 15:52:34,730 - __main__ - INFO - Epoch [47/50], Loss G: 1180.8611, Loss D_A: 0.3261, Loss D_B: 0.2854
+2024-09-01 15:52:34,730 - __main__ - INFO - Chamfer Distance A: 1.6433, Chamfer Distance B: 1134.9763, MMD-CD: 1.6433
+2024-09-01 15:52:34,832 - __main__ - INFO - Epoch [48/50], Loss G: 1180.6853, Loss D_A: 0.3941, Loss D_B: 0.2757
+2024-09-01 15:52:34,832 - __main__ - INFO - Chamfer Distance A: 1.6671, Chamfer Distance B: 1134.8286, MMD-CD: 1.6671
+2024-09-01 15:52:34,937 - __main__ - INFO - Epoch [49/50], Loss G: 1180.5098, Loss D_A: 0.3529, Loss D_B: 0.2740
+2024-09-01 15:52:34,937 - __main__ - INFO - Chamfer Distance A: 1.6502, Chamfer Distance B: 1134.5836, MMD-CD: 1.6502
+2024-09-01 15:52:35,150 - __main__ - INFO - Shape of real_A: torch.Size([1, 3, 64, 64])
+2024-09-01 15:52:35,150 - __main__ - INFO - Shape of real_B before expanding: torch.Size([1, 1, 64, 64])
+2024-09-01 15:52:35,150 - __main__ - INFO - Shape of real_B: torch.Size([1, 3, 64, 64])
+2024-09-01 15:52:35,213 - __main__ - INFO - Test Loss: 6.5027
+2024-09-01 15:52:35,213 - __main__ - INFO - Chamfer Distance A: 0.0016
+2024-09-01 15:52:35,213 - __main__ - INFO - Chamfer Distance B: 0.0314
+2024-09-01 15:52:35,213 - __main__ - INFO - MMD_CD: 0.3157
+2024-09-01 15:53:54,651 - __main__ - INFO - Number of Samples: 10
+2024-09-01 15:53:54,651 - __main__ - INFO - Sample: Data(x=[2604, 3], y=[2604], pos=[2604, 3], category=[1])
+2024-09-01 15:53:54,651 - __main__ - INFO - Number of points: 2604, Dimension of each point: 3
+2024-09-01 15:53:54,719 - __main__ - INFO - Number of points: 2540, Dimension of each point: 3
+2024-09-01 15:53:54,787 - __main__ - INFO - Number of Training Samples: 8
+2024-09-01 15:53:54,787 - __main__ - INFO - Number of Test Samples: 2
+2024-09-01 15:53:54,788 - __main__ - INFO - Train dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 15:53:54,788 - __main__ - INFO - Test dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 15:53:54,898 - __main__ - INFO - Original sample size: torch.Size([2048, 3])
+2024-09-01 15:53:54,898 - __main__ - INFO - Transformed sample size: torch.Size([2048, 3])
+2024-09-01 15:53:58,720 - __main__ - INFO - Epoch [0/50], Loss G: 1782.0007, Loss D_A: 0.6993, Loss D_B: 0.7422
+2024-09-01 15:53:58,720 - __main__ - INFO - Chamfer Distance A: 11.0115, Chamfer Distance B: 1700.4038, MMD-CD: 11.0115
+2024-09-01 15:53:58,913 - __main__ - INFO - Epoch [1/50], Loss G: 1782.5762, Loss D_A: 0.7483, Loss D_B: 0.7561
+2024-09-01 15:53:58,913 - __main__ - INFO - Chamfer Distance A: 10.9175, Chamfer Distance B: 1701.1626, MMD-CD: 10.9175
+2024-09-01 15:53:59,055 - __main__ - INFO - Epoch [2/50], Loss G: 1781.0779, Loss D_A: 1.9751, Loss D_B: 0.5795
+2024-09-01 15:53:59,055 - __main__ - INFO - Chamfer Distance A: 10.8830, Chamfer Distance B: 1701.2369, MMD-CD: 10.8831
+2024-09-01 15:53:59,156 - __main__ - INFO - Epoch [3/50], Loss G: 1779.9686, Loss D_A: 1.1279, Loss D_B: 0.9071
+2024-09-01 15:53:59,157 - __main__ - INFO - Chamfer Distance A: 11.0807, Chamfer Distance B: 1700.3969, MMD-CD: 11.0807
+2024-09-01 15:53:59,238 - __main__ - INFO - Epoch [4/50], Loss G: 1780.2697, Loss D_A: 0.5024, Loss D_B: 0.5337
+2024-09-01 15:53:59,238 - __main__ - INFO - Chamfer Distance A: 11.0750, Chamfer Distance B: 1700.9778, MMD-CD: 11.0751
+2024-09-01 15:53:59,333 - __main__ - INFO - Epoch [5/50], Loss G: 1780.6140, Loss D_A: 0.3980, Loss D_B: 0.4461
+2024-09-01 15:53:59,333 - __main__ - INFO - Chamfer Distance A: 11.1163, Chamfer Distance B: 1700.8982, MMD-CD: 11.1164
+2024-09-01 15:53:59,439 - __main__ - INFO - Epoch [6/50], Loss G: 1781.1938, Loss D_A: 0.4588, Loss D_B: 0.3985
+2024-09-01 15:53:59,439 - __main__ - INFO - Chamfer Distance A: 11.3250, Chamfer Distance B: 1701.3873, MMD-CD: 11.3251
+2024-09-01 15:53:59,544 - __main__ - INFO - Epoch [7/50], Loss G: 1627.2865, Loss D_A: 0.3179, Loss D_B: 0.3426
+2024-09-01 15:53:59,545 - __main__ - INFO - Chamfer Distance A: 7.4563, Chamfer Distance B: 1558.5371, MMD-CD: 7.4563
+2024-09-01 15:53:59,709 - __main__ - INFO - Epoch [8/50], Loss G: 1500.6641, Loss D_A: 0.3516, Loss D_B: 0.3670
+2024-09-01 15:53:59,709 - __main__ - INFO - Chamfer Distance A: 5.4150, Chamfer Distance B: 1438.5599, MMD-CD: 5.4150
+2024-09-01 15:53:59,846 - __main__ - INFO - Epoch [9/50], Loss G: 1403.0780, Loss D_A: 0.4346, Loss D_B: 0.3396
+2024-09-01 15:53:59,846 - __main__ - INFO - Chamfer Distance A: 3.9717, Chamfer Distance B: 1346.0345, MMD-CD: 3.9717
+2024-09-01 15:53:59,946 - __main__ - INFO - Epoch [10/50], Loss G: 1334.6945, Loss D_A: 0.4897, Loss D_B: 0.3062
+2024-09-01 15:53:59,946 - __main__ - INFO - Chamfer Distance A: 2.7638, Chamfer Distance B: 1281.8988, MMD-CD: 2.7638
+2024-09-01 15:54:00,145 - __main__ - INFO - Epoch [11/50], Loss G: 1290.2091, Loss D_A: 0.4806, Loss D_B: 0.3660
+2024-09-01 15:54:00,146 - __main__ - INFO - Chamfer Distance A: 2.4201, Chamfer Distance B: 1239.1588, MMD-CD: 2.4201
+2024-09-01 15:54:00,240 - __main__ - INFO - Epoch [12/50], Loss G: 1263.2460, Loss D_A: 0.7674, Loss D_B: 0.7440
+2024-09-01 15:54:00,240 - __main__ - INFO - Chamfer Distance A: 2.3769, Chamfer Distance B: 1211.9220, MMD-CD: 2.3769
+2024-09-01 15:54:00,345 - __main__ - INFO - Epoch [13/50], Loss G: 1247.6350, Loss D_A: 1.3312, Loss D_B: 1.1331
+2024-09-01 15:54:00,345 - __main__ - INFO - Chamfer Distance A: 2.8572, Chamfer Distance B: 1194.0087, MMD-CD: 2.8572
+2024-09-01 15:54:00,450 - __main__ - INFO - Epoch [14/50], Loss G: 1235.9941, Loss D_A: 1.3969, Loss D_B: 0.8145
+2024-09-01 15:54:00,450 - __main__ - INFO - Chamfer Distance A: 3.4411, Chamfer Distance B: 1181.9231, MMD-CD: 3.4412
+2024-09-01 15:54:00,554 - __main__ - INFO - Epoch [15/50], Loss G: 1225.8789, Loss D_A: 1.0212, Loss D_B: 0.8421
+2024-09-01 15:54:00,554 - __main__ - INFO - Chamfer Distance A: 3.1587, Chamfer Distance B: 1173.4010, MMD-CD: 3.1587
+2024-09-01 15:54:00,657 - __main__ - INFO - Epoch [16/50], Loss G: 1216.8911, Loss D_A: 0.4801, Loss D_B: 0.5197
+2024-09-01 15:54:00,657 - __main__ - INFO - Chamfer Distance A: 2.5925, Chamfer Distance B: 1167.1211, MMD-CD: 2.5925
+2024-09-01 15:54:00,761 - __main__ - INFO - Epoch [17/50], Loss G: 1210.5084, Loss D_A: 0.5706, Loss D_B: 0.3427
+2024-09-01 15:54:00,761 - __main__ - INFO - Chamfer Distance A: 2.0951, Chamfer Distance B: 1162.3571, MMD-CD: 2.0951
+2024-09-01 15:54:00,865 - __main__ - INFO - Epoch [18/50], Loss G: 1207.0140, Loss D_A: 0.6158, Loss D_B: 0.3400
+2024-09-01 15:54:00,866 - __main__ - INFO - Chamfer Distance A: 2.1057, Chamfer Distance B: 1158.7996, MMD-CD: 2.1057
+2024-09-01 15:54:00,969 - __main__ - INFO - Epoch [19/50], Loss G: 1203.7410, Loss D_A: 0.4763, Loss D_B: 0.3327
+2024-09-01 15:54:00,969 - __main__ - INFO - Chamfer Distance A: 2.2177, Chamfer Distance B: 1155.4918, MMD-CD: 2.2177
+2024-09-01 15:54:01,073 - __main__ - INFO - Epoch [20/50], Loss G: 1200.4071, Loss D_A: 0.5210, Loss D_B: 0.2814
+2024-09-01 15:54:01,073 - __main__ - INFO - Chamfer Distance A: 2.0465, Chamfer Distance B: 1152.8993, MMD-CD: 2.0465
+2024-09-01 15:54:01,292 - __main__ - INFO - Epoch [21/50], Loss G: 1197.7059, Loss D_A: 0.4268, Loss D_B: 0.2912
+2024-09-01 15:54:01,292 - __main__ - INFO - Chamfer Distance A: 1.8189, Chamfer Distance B: 1150.7729, MMD-CD: 1.8189
+2024-09-01 15:54:01,386 - __main__ - INFO - Epoch [22/50], Loss G: 1196.3641, Loss D_A: 0.4766, Loss D_B: 0.2978
+2024-09-01 15:54:01,386 - __main__ - INFO - Chamfer Distance A: 2.0216, Chamfer Distance B: 1148.9449, MMD-CD: 2.0216
+2024-09-01 15:54:01,488 - __main__ - INFO - Epoch [23/50], Loss G: 1194.8175, Loss D_A: 0.4198, Loss D_B: 0.2857
+2024-09-01 15:54:01,488 - __main__ - INFO - Chamfer Distance A: 1.9887, Chamfer Distance B: 1147.6168, MMD-CD: 1.9887
+2024-09-01 15:54:01,592 - __main__ - INFO - Epoch [24/50], Loss G: 1192.6287, Loss D_A: 0.5026, Loss D_B: 0.2866
+2024-09-01 15:54:01,592 - __main__ - INFO - Chamfer Distance A: 1.6484, Chamfer Distance B: 1146.2809, MMD-CD: 1.6484
+2024-09-01 15:54:01,695 - __main__ - INFO - Epoch [25/50], Loss G: 1191.7037, Loss D_A: 0.4796, Loss D_B: 0.2834
+2024-09-01 15:54:01,695 - __main__ - INFO - Chamfer Distance A: 1.7822, Chamfer Distance B: 1144.9995, MMD-CD: 1.7822
+2024-09-01 15:54:01,799 - __main__ - INFO - Epoch [26/50], Loss G: 1190.9231, Loss D_A: 0.3363, Loss D_B: 0.2882
+2024-09-01 15:54:01,799 - __main__ - INFO - Chamfer Distance A: 1.9763, Chamfer Distance B: 1143.9440, MMD-CD: 1.9763
+2024-09-01 15:54:01,902 - __main__ - INFO - Epoch [27/50], Loss G: 1189.9156, Loss D_A: 0.3994, Loss D_B: 0.2717
+2024-09-01 15:54:01,902 - __main__ - INFO - Chamfer Distance A: 1.9777, Chamfer Distance B: 1143.1040, MMD-CD: 1.9777
+2024-09-01 15:54:02,006 - __main__ - INFO - Epoch [28/50], Loss G: 1188.6008, Loss D_A: 0.4962, Loss D_B: 0.2887
+2024-09-01 15:54:02,006 - __main__ - INFO - Chamfer Distance A: 1.7002, Chamfer Distance B: 1142.3958, MMD-CD: 1.7002
+2024-09-01 15:54:02,110 - __main__ - INFO - Epoch [29/50], Loss G: 1187.7897, Loss D_A: 0.4451, Loss D_B: 0.2690
+2024-09-01 15:54:02,110 - __main__ - INFO - Chamfer Distance A: 1.6383, Chamfer Distance B: 1141.5026, MMD-CD: 1.6383
+2024-09-01 15:54:02,214 - __main__ - INFO - Epoch [30/50], Loss G: 1187.8726, Loss D_A: 0.5031, Loss D_B: 0.2892
+2024-09-01 15:54:02,214 - __main__ - INFO - Chamfer Distance A: 1.8229, Chamfer Distance B: 1141.0431, MMD-CD: 1.8229
+2024-09-01 15:54:02,412 - __main__ - INFO - Epoch [31/50], Loss G: 1187.2046, Loss D_A: 0.4558, Loss D_B: 0.2577
+2024-09-01 15:54:02,412 - __main__ - INFO - Chamfer Distance A: 1.8646, Chamfer Distance B: 1140.3142, MMD-CD: 1.8646
+2024-09-01 15:54:02,637 - __main__ - INFO - Epoch [32/50], Loss G: 1186.3214, Loss D_A: 0.4840, Loss D_B: 0.3126
+2024-09-01 15:54:02,637 - __main__ - INFO - Chamfer Distance A: 1.8404, Chamfer Distance B: 1139.7463, MMD-CD: 1.8404
+2024-09-01 15:54:02,728 - __main__ - INFO - Epoch [33/50], Loss G: 1185.5889, Loss D_A: 0.4238, Loss D_B: 0.2381
+2024-09-01 15:54:02,729 - __main__ - INFO - Chamfer Distance A: 1.7487, Chamfer Distance B: 1139.2769, MMD-CD: 1.7487
+2024-09-01 15:54:02,831 - __main__ - INFO - Epoch [34/50], Loss G: 1184.2706, Loss D_A: 0.3515, Loss D_B: 0.3784
+2024-09-01 15:54:02,831 - __main__ - INFO - Chamfer Distance A: 1.5524, Chamfer Distance B: 1138.6155, MMD-CD: 1.5524
+2024-09-01 15:54:02,937 - __main__ - INFO - Epoch [35/50], Loss G: 1183.9854, Loss D_A: 0.3749, Loss D_B: 0.2320
+2024-09-01 15:54:02,937 - __main__ - INFO - Chamfer Distance A: 1.4817, Chamfer Distance B: 1138.3790, MMD-CD: 1.4817
+2024-09-01 15:54:03,043 - __main__ - INFO - Epoch [36/50], Loss G: 1183.5555, Loss D_A: 0.3349, Loss D_B: 0.3923
+2024-09-01 15:54:03,043 - __main__ - INFO - Chamfer Distance A: 1.5266, Chamfer Distance B: 1137.8811, MMD-CD: 1.5267
+2024-09-01 15:54:03,146 - __main__ - INFO - Epoch [37/50], Loss G: 1184.5599, Loss D_A: 0.4396, Loss D_B: 0.2431
+2024-09-01 15:54:03,146 - __main__ - INFO - Chamfer Distance A: 1.9376, Chamfer Distance B: 1137.6394, MMD-CD: 1.9376
+2024-09-01 15:54:03,248 - __main__ - INFO - Epoch [38/50], Loss G: 1183.6255, Loss D_A: 0.3338, Loss D_B: 0.3118
+2024-09-01 15:54:03,248 - __main__ - INFO - Chamfer Distance A: 1.8711, Chamfer Distance B: 1137.2493, MMD-CD: 1.8711
+2024-09-01 15:54:03,352 - __main__ - INFO - Epoch [39/50], Loss G: 1182.7490, Loss D_A: 0.3865, Loss D_B: 0.2776
+2024-09-01 15:54:03,352 - __main__ - INFO - Chamfer Distance A: 1.6250, Chamfer Distance B: 1136.9822, MMD-CD: 1.6250
+2024-09-01 15:54:03,454 - __main__ - INFO - Epoch [40/50], Loss G: 1182.4470, Loss D_A: 0.3539, Loss D_B: 0.2565
+2024-09-01 15:54:03,454 - __main__ - INFO - Chamfer Distance A: 1.6106, Chamfer Distance B: 1136.6636, MMD-CD: 1.6106
+2024-09-01 15:54:03,652 - __main__ - INFO - Epoch [41/50], Loss G: 1182.7085, Loss D_A: 0.5789, Loss D_B: 0.3020
+2024-09-01 15:54:03,652 - __main__ - INFO - Chamfer Distance A: 1.5944, Chamfer Distance B: 1136.4138, MMD-CD: 1.5944
+2024-09-01 15:54:03,745 - __main__ - INFO - Epoch [42/50], Loss G: 1185.5092, Loss D_A: 0.3024, Loss D_B: 0.2431
+2024-09-01 15:54:03,746 - __main__ - INFO - Chamfer Distance A: 3.0580, Chamfer Distance B: 1136.1188, MMD-CD: 3.0580
+2024-09-01 15:54:03,847 - __main__ - INFO - Epoch [43/50], Loss G: 1183.8513, Loss D_A: 0.8228, Loss D_B: 0.3424
+2024-09-01 15:54:03,847 - __main__ - INFO - Chamfer Distance A: 2.1889, Chamfer Distance B: 1135.9930, MMD-CD: 2.1889
+2024-09-01 15:54:03,938 - __main__ - INFO - Epoch [44/50], Loss G: 1184.0504, Loss D_A: 0.7884, Loss D_B: 0.2710
+2024-09-01 15:54:03,938 - __main__ - INFO - Chamfer Distance A: 2.3006, Chamfer Distance B: 1135.7490, MMD-CD: 2.3006
+2024-09-01 15:54:04,031 - __main__ - INFO - Epoch [45/50], Loss G: 1183.3175, Loss D_A: 0.3516, Loss D_B: 0.3967
+2024-09-01 15:54:04,031 - __main__ - INFO - Chamfer Distance A: 2.3707, Chamfer Distance B: 1135.5466, MMD-CD: 2.3707
+2024-09-01 15:54:04,133 - __main__ - INFO - Epoch [46/50], Loss G: 1181.6702, Loss D_A: 0.3442, Loss D_B: 0.2942
+2024-09-01 15:54:04,133 - __main__ - INFO - Chamfer Distance A: 1.8307, Chamfer Distance B: 1135.3286, MMD-CD: 1.8307
+2024-09-01 15:54:04,239 - __main__ - INFO - Epoch [47/50], Loss G: 1181.1094, Loss D_A: 0.3304, Loss D_B: 0.2652
+2024-09-01 15:54:04,239 - __main__ - INFO - Chamfer Distance A: 1.6931, Chamfer Distance B: 1135.1166, MMD-CD: 1.6931
+2024-09-01 15:54:04,342 - __main__ - INFO - Epoch [48/50], Loss G: 1180.9788, Loss D_A: 0.4810, Loss D_B: 0.3300
+2024-09-01 15:54:04,342 - __main__ - INFO - Chamfer Distance A: 1.6654, Chamfer Distance B: 1135.0272, MMD-CD: 1.6654
+2024-09-01 15:54:04,447 - __main__ - INFO - Epoch [49/50], Loss G: 1180.9838, Loss D_A: 0.2869, Loss D_B: 0.2121
+2024-09-01 15:54:04,447 - __main__ - INFO - Chamfer Distance A: 1.7296, Chamfer Distance B: 1134.7881, MMD-CD: 1.7296
+2024-09-01 15:54:04,451 - __main__ - INFO - Shape of real_A: torch.Size([1, 3, 64, 64])
+2024-09-01 15:54:04,451 - __main__ - INFO - Shape of real_B before expanding: torch.Size([1, 1, 64, 64])
+2024-09-01 15:54:04,451 - __main__ - INFO - Shape of real_B: torch.Size([1, 3, 64, 64])
+2024-09-01 15:54:04,498 - __main__ - INFO - Test Loss: 6.4354
+2024-09-01 15:54:04,499 - __main__ - INFO - Chamfer Distance A: 0.0016
+2024-09-01 15:54:04,499 - __main__ - INFO - Chamfer Distance B: 0.0315
+2024-09-01 15:54:04,499 - __main__ - INFO - MMD_CD: 0.2991
+2024-09-01 16:03:01,125 - __main__ - INFO - Number of Samples: 200
+2024-09-01 16:03:01,125 - __main__ - INFO - Sample: Data(x=[2621, 3], y=[2621], pos=[2621, 3], category=[1])
+2024-09-01 16:03:01,125 - __main__ - INFO - Number of points: 2621, Dimension of each point: 3
+2024-09-01 16:03:01,194 - __main__ - INFO - Number of points: 2616, Dimension of each point: 3
+2024-09-01 16:03:01,207 - __main__ - INFO - Train Batch: DataBatch(x=[32768, 3], y=[32768], pos=[32768, 3], category=[16], batch=[32768], ptr=[17])
+2024-09-01 16:03:01,216 - __main__ - INFO - Test Batch: DataBatch(x=[32768, 3], y=[32768], pos=[32768, 3], category=[16], batch=[32768], ptr=[17])
+2024-09-01 16:03:01,216 - __main__ - INFO - Number of Training Samples: 160
+2024-09-01 16:03:01,216 - __main__ - INFO - Number of Test Samples: 40
+2024-09-01 16:03:01,217 - __main__ - INFO - Train dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 16:03:01,217 - __main__ - INFO - Test dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 16:03:01,333 - __main__ - INFO - Original sample size: torch.Size([2048, 3])
+2024-09-01 16:03:01,333 - __main__ - INFO - Transformed sample size: torch.Size([2048, 3])
+2024-09-01 16:06:03,080 - __main__ - INFO - Number of Samples: 200
+2024-09-01 16:06:03,081 - __main__ - INFO - Sample: Data(x=[2533, 3], y=[2533], pos=[2533, 3], category=[1])
+2024-09-01 16:06:03,081 - __main__ - INFO - Number of points: 2533, Dimension of each point: 3
+2024-09-01 16:06:03,147 - __main__ - INFO - Number of points: 2511, Dimension of each point: 3
+2024-09-01 16:06:03,160 - __main__ - INFO - Train Batch: DataBatch(x=[32768, 3], y=[32768], pos=[32768, 3], category=[16], batch=[32768], ptr=[17])
+2024-09-01 16:06:03,169 - __main__ - INFO - Test Batch: DataBatch(x=[32768, 3], y=[32768], pos=[32768, 3], category=[16], batch=[32768], ptr=[17])
+2024-09-01 16:06:03,169 - __main__ - INFO - Number of Training Samples: 160
+2024-09-01 16:06:03,169 - __main__ - INFO - Number of Test Samples: 40
+2024-09-01 16:06:03,169 - __main__ - INFO - Train dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 16:06:03,170 - __main__ - INFO - Test dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 16:06:03,285 - __main__ - INFO - Original sample size: torch.Size([2048, 3])
+2024-09-01 16:06:03,285 - __main__ - INFO - Transformed sample size: torch.Size([2048, 3])
+2024-09-01 16:06:08,001 - __main__ - INFO - Epoch [0/50], Loss G: 15783.1808, Loss D_A: 0.7558, Loss D_B: 0.4835
+2024-09-01 16:06:08,001 - __main__ - INFO - Chamfer Distance A: 24.3380, Chamfer Distance B: 15614.7824, MMD-CD: 24.3381
+2024-09-01 16:06:09,151 - __main__ - INFO - Epoch [1/50], Loss G: 13276.0228, Loss D_A: 0.7720, Loss D_B: 0.6128
+2024-09-01 16:06:09,151 - __main__ - INFO - Chamfer Distance A: 6.1206, Chamfer Distance B: 13157.0006, MMD-CD: 6.1206
+2024-09-01 16:06:10,198 - __main__ - INFO - Epoch [2/50], Loss G: 12694.8976, Loss D_A: 0.4995, Loss D_B: 0.2856
+2024-09-01 16:06:10,198 - __main__ - INFO - Chamfer Distance A: 3.8690, Chamfer Distance B: 12585.0439, MMD-CD: 3.8690
+2024-09-01 16:06:11,385 - __main__ - INFO - Epoch [3/50], Loss G: 12640.0484, Loss D_A: 0.4488, Loss D_B: 0.2978
+2024-09-01 16:06:11,386 - __main__ - INFO - Chamfer Distance A: 3.5362, Chamfer Distance B: 12531.3350, MMD-CD: 3.5362
+2024-09-01 16:06:12,436 - __main__ - INFO - Epoch [4/50], Loss G: 12620.1706, Loss D_A: 0.3533, Loss D_B: 0.2545
+2024-09-01 16:06:12,436 - __main__ - INFO - Chamfer Distance A: 3.0558, Chamfer Distance B: 12512.9009, MMD-CD: 3.0558
+2024-09-01 16:06:13,631 - __main__ - INFO - Epoch [5/50], Loss G: 12612.2086, Loss D_A: 0.3351, Loss D_B: 0.3007
+2024-09-01 16:06:13,631 - __main__ - INFO - Chamfer Distance A: 3.3155, Chamfer Distance B: 12504.4133, MMD-CD: 3.3155
+2024-09-01 16:06:14,669 - __main__ - INFO - Epoch [6/50], Loss G: 12605.6049, Loss D_A: 0.2790, Loss D_B: 0.2674
+2024-09-01 16:06:14,669 - __main__ - INFO - Chamfer Distance A: 3.0715, Chamfer Distance B: 12498.5339, MMD-CD: 3.0715
+2024-09-01 16:06:15,864 - __main__ - INFO - Epoch [7/50], Loss G: 12600.7535, Loss D_A: 0.2669, Loss D_B: 0.2578
+2024-09-01 16:06:15,864 - __main__ - INFO - Chamfer Distance A: 3.1559, Chamfer Distance B: 12493.5123, MMD-CD: 3.1559
+2024-09-01 16:06:16,912 - __main__ - INFO - Epoch [8/50], Loss G: 12597.0771, Loss D_A: 0.2625, Loss D_B: 0.2370
+2024-09-01 16:06:16,912 - __main__ - INFO - Chamfer Distance A: 3.1063, Chamfer Distance B: 12490.0116, MMD-CD: 3.1063
+2024-09-01 16:06:17,992 - __main__ - INFO - Epoch [9/50], Loss G: 12595.3229, Loss D_A: 0.2581, Loss D_B: 0.2312
+2024-09-01 16:06:17,992 - __main__ - INFO - Chamfer Distance A: 3.2367, Chamfer Distance B: 12487.9745, MMD-CD: 3.2367
+2024-09-01 16:06:19,043 - __main__ - INFO - Epoch [10/50], Loss G: 12593.8580, Loss D_A: 0.2519, Loss D_B: 0.2403
+2024-09-01 16:06:19,043 - __main__ - INFO - Chamfer Distance A: 3.1073, Chamfer Distance B: 12486.8547, MMD-CD: 3.1073
+2024-09-01 16:06:20,165 - __main__ - INFO - Epoch [11/50], Loss G: 12592.9137, Loss D_A: 0.2372, Loss D_B: 0.2319
+2024-09-01 16:06:20,165 - __main__ - INFO - Chamfer Distance A: 3.0160, Chamfer Distance B: 12486.1318, MMD-CD: 3.0160
+2024-09-01 16:06:21,207 - __main__ - INFO - Epoch [12/50], Loss G: 12592.5883, Loss D_A: 0.2429, Loss D_B: 0.2369
+2024-09-01 16:06:21,207 - __main__ - INFO - Chamfer Distance A: 3.0948, Chamfer Distance B: 12485.6410, MMD-CD: 3.0948
+2024-09-01 16:06:22,275 - __main__ - INFO - Epoch [13/50], Loss G: 12592.1231, Loss D_A: 0.2374, Loss D_B: 0.2398
+2024-09-01 16:06:22,275 - __main__ - INFO - Chamfer Distance A: 3.0375, Chamfer Distance B: 12485.3156, MMD-CD: 3.0375
+2024-09-01 16:06:23,328 - __main__ - INFO - Epoch [14/50], Loss G: 12591.7963, Loss D_A: 0.2382, Loss D_B: 0.2382
+2024-09-01 16:06:23,328 - __main__ - INFO - Chamfer Distance A: 2.9983, Chamfer Distance B: 12485.0989, MMD-CD: 2.9983
+2024-09-01 16:06:24,431 - __main__ - INFO - Epoch [15/50], Loss G: 12591.6440, Loss D_A: 0.2354, Loss D_B: 0.2452
+2024-09-01 16:06:24,431 - __main__ - INFO - Chamfer Distance A: 2.9807, Chamfer Distance B: 12484.9755, MMD-CD: 2.9807
+2024-09-01 16:06:25,482 - __main__ - INFO - Epoch [16/50], Loss G: 12591.7926, Loss D_A: 0.2374, Loss D_B: 0.2328
+2024-09-01 16:06:25,482 - __main__ - INFO - Chamfer Distance A: 3.0974, Chamfer Distance B: 12484.8817, MMD-CD: 3.0974
+2024-09-01 16:06:26,540 - __main__ - INFO - Epoch [17/50], Loss G: 12591.6944, Loss D_A: 0.2361, Loss D_B: 0.2411
+2024-09-01 16:06:26,540 - __main__ - INFO - Chamfer Distance A: 3.0810, Chamfer Distance B: 12484.8237, MMD-CD: 3.0810
+2024-09-01 16:06:27,586 - __main__ - INFO - Epoch [18/50], Loss G: 12591.3589, Loss D_A: 0.2351, Loss D_B: 0.2353
+2024-09-01 16:06:27,587 - __main__ - INFO - Chamfer Distance A: 2.9592, Chamfer Distance B: 12484.7807, MMD-CD: 2.9592
+2024-09-01 16:06:29,226 - __main__ - INFO - Epoch [19/50], Loss G: 12591.5005, Loss D_A: 0.2311, Loss D_B: 0.2325
+2024-09-01 16:06:29,226 - __main__ - INFO - Chamfer Distance A: 3.0402, Chamfer Distance B: 12484.7429, MMD-CD: 3.0402
+2024-09-01 16:06:30,293 - __main__ - INFO - Epoch [20/50], Loss G: 12591.4069, Loss D_A: 0.2369, Loss D_B: 0.2382
+2024-09-01 16:06:30,293 - __main__ - INFO - Chamfer Distance A: 3.0087, Chamfer Distance B: 12484.7146, MMD-CD: 3.0087
+2024-09-01 16:06:31,428 - __main__ - INFO - Epoch [21/50], Loss G: 12591.2856, Loss D_A: 0.2330, Loss D_B: 0.3128
+2024-09-01 16:06:31,428 - __main__ - INFO - Chamfer Distance A: 2.9532, Chamfer Distance B: 12484.6973, MMD-CD: 2.9532
+2024-09-01 16:06:32,532 - __main__ - INFO - Epoch [22/50], Loss G: 12591.6133, Loss D_A: 0.2316, Loss D_B: 0.3017
+2024-09-01 16:06:32,533 - __main__ - INFO - Chamfer Distance A: 3.1341, Chamfer Distance B: 12484.6812, MMD-CD: 3.1341
+2024-09-01 16:06:33,579 - __main__ - INFO - Epoch [23/50], Loss G: 12591.1169, Loss D_A: 0.2330, Loss D_B: 0.3008
+2024-09-01 16:06:33,579 - __main__ - INFO - Chamfer Distance A: 2.9149, Chamfer Distance B: 12484.6712, MMD-CD: 2.9149
+2024-09-01 16:06:34,611 - __main__ - INFO - Epoch [24/50], Loss G: 12591.3517, Loss D_A: 0.2334, Loss D_B: 0.2587
+2024-09-01 16:06:34,611 - __main__ - INFO - Chamfer Distance A: 3.0271, Chamfer Distance B: 12484.6638, MMD-CD: 3.0271
+2024-09-01 16:06:35,774 - __main__ - INFO - Epoch [25/50], Loss G: 12591.2234, Loss D_A: 0.2308, Loss D_B: 0.3093
+2024-09-01 16:06:35,774 - __main__ - INFO - Chamfer Distance A: 2.9675, Chamfer Distance B: 12484.6581, MMD-CD: 2.9675
+2024-09-01 16:06:36,909 - __main__ - INFO - Epoch [26/50], Loss G: 12591.2901, Loss D_A: 0.2353, Loss D_B: 0.2465
+2024-09-01 16:06:36,909 - __main__ - INFO - Chamfer Distance A: 3.0019, Chamfer Distance B: 12484.6538, MMD-CD: 3.0020
+2024-09-01 16:06:37,967 - __main__ - INFO - Epoch [27/50], Loss G: 12591.1450, Loss D_A: 0.2315, Loss D_B: 0.2402
+2024-09-01 16:06:37,968 - __main__ - INFO - Chamfer Distance A: 2.9373, Chamfer Distance B: 12484.6505, MMD-CD: 2.9373
+2024-09-01 16:06:39,044 - __main__ - INFO - Epoch [28/50], Loss G: 12591.1066, Loss D_A: 0.2306, Loss D_B: 0.2318
+2024-09-01 16:06:39,045 - __main__ - INFO - Chamfer Distance A: 2.9292, Chamfer Distance B: 12484.6466, MMD-CD: 2.9292
+2024-09-01 16:06:40,100 - __main__ - INFO - Epoch [29/50], Loss G: 12591.1646, Loss D_A: 0.2308, Loss D_B: 0.2326
+2024-09-01 16:06:40,100 - __main__ - INFO - Chamfer Distance A: 2.9555, Chamfer Distance B: 12484.6430, MMD-CD: 2.9555
+2024-09-01 16:06:41,164 - __main__ - INFO - Epoch [30/50], Loss G: 12591.0746, Loss D_A: 0.2299, Loss D_B: 0.2320
+2024-09-01 16:06:41,164 - __main__ - INFO - Chamfer Distance A: 2.9183, Chamfer Distance B: 12484.6397, MMD-CD: 2.9183
+2024-09-01 16:06:42,297 - __main__ - INFO - Epoch [31/50], Loss G: 12591.0461, Loss D_A: 0.2310, Loss D_B: 0.2306
+2024-09-01 16:06:42,297 - __main__ - INFO - Chamfer Distance A: 2.9064, Chamfer Distance B: 12484.6362, MMD-CD: 2.9064
+2024-09-01 16:06:43,585 - __main__ - INFO - Epoch [32/50], Loss G: 12590.9848, Loss D_A: 0.2281, Loss D_B: 0.2322
+2024-09-01 16:06:43,585 - __main__ - INFO - Chamfer Distance A: 2.8846, Chamfer Distance B: 12484.6339, MMD-CD: 2.8846
+2024-09-01 16:06:44,642 - __main__ - INFO - Epoch [33/50], Loss G: 12591.2436, Loss D_A: 0.2295, Loss D_B: 0.2348
+2024-09-01 16:06:44,642 - __main__ - INFO - Chamfer Distance A: 2.9988, Chamfer Distance B: 12484.6308, MMD-CD: 2.9988
+2024-09-01 16:06:45,764 - __main__ - INFO - Epoch [34/50], Loss G: 12591.0381, Loss D_A: 0.2302, Loss D_B: 0.2370
+2024-09-01 16:06:45,764 - __main__ - INFO - Chamfer Distance A: 2.9103, Chamfer Distance B: 12484.6283, MMD-CD: 2.9104
+2024-09-01 16:06:46,814 - __main__ - INFO - Epoch [35/50], Loss G: 12591.0474, Loss D_A: 0.2272, Loss D_B: 0.2314
+2024-09-01 16:06:46,814 - __main__ - INFO - Chamfer Distance A: 2.9172, Chamfer Distance B: 12484.6244, MMD-CD: 2.9172
+2024-09-01 16:06:47,884 - __main__ - INFO - Epoch [36/50], Loss G: 12591.0364, Loss D_A: 0.2329, Loss D_B: 0.2313
+2024-09-01 16:06:47,884 - __main__ - INFO - Chamfer Distance A: 2.9153, Chamfer Distance B: 12484.6213, MMD-CD: 2.9154
+2024-09-01 16:06:49,841 - __main__ - INFO - Epoch [37/50], Loss G: 12590.9432, Loss D_A: 0.2293, Loss D_B: 0.2310
+2024-09-01 16:06:49,841 - __main__ - INFO - Chamfer Distance A: 2.8812, Chamfer Distance B: 12484.6175, MMD-CD: 2.8812
+2024-09-01 16:06:50,887 - __main__ - INFO - Epoch [38/50], Loss G: 12591.0446, Loss D_A: 0.2263, Loss D_B: 0.2393
+2024-09-01 16:06:50,888 - __main__ - INFO - Chamfer Distance A: 2.9225, Chamfer Distance B: 12484.6164, MMD-CD: 2.9225
+2024-09-01 16:06:51,972 - __main__ - INFO - Epoch [39/50], Loss G: 12590.9709, Loss D_A: 0.2295, Loss D_B: 0.2355
+2024-09-01 16:06:51,973 - __main__ - INFO - Chamfer Distance A: 2.8973, Chamfer Distance B: 12484.6141, MMD-CD: 2.8973
+2024-09-01 16:06:53,023 - __main__ - INFO - Epoch [40/50], Loss G: 12591.1071, Loss D_A: 0.2294, Loss D_B: 0.2327
+2024-09-01 16:06:53,023 - __main__ - INFO - Chamfer Distance A: 2.9517, Chamfer Distance B: 12484.6124, MMD-CD: 2.9517
+2024-09-01 16:06:54,374 - __main__ - INFO - Epoch [41/50], Loss G: 12591.0276, Loss D_A: 0.2294, Loss D_B: 0.2309
+2024-09-01 16:06:54,374 - __main__ - INFO - Chamfer Distance A: 2.9228, Chamfer Distance B: 12484.6105, MMD-CD: 2.9228
+2024-09-01 16:06:55,655 - __main__ - INFO - Epoch [42/50], Loss G: 12591.0097, Loss D_A: 0.2308, Loss D_B: 0.2340
+2024-09-01 16:06:55,655 - __main__ - INFO - Chamfer Distance A: 2.9189, Chamfer Distance B: 12484.6101, MMD-CD: 2.9189
+2024-09-01 16:06:56,714 - __main__ - INFO - Epoch [43/50], Loss G: 12591.1875, Loss D_A: 0.2352, Loss D_B: 0.2481
+2024-09-01 16:06:56,715 - __main__ - INFO - Chamfer Distance A: 2.9909, Chamfer Distance B: 12484.6087, MMD-CD: 2.9909
+2024-09-01 16:06:57,841 - __main__ - INFO - Epoch [44/50], Loss G: 12591.0400, Loss D_A: 0.2302, Loss D_B: 0.2330
+2024-09-01 16:06:57,841 - __main__ - INFO - Chamfer Distance A: 2.9285, Chamfer Distance B: 12484.6079, MMD-CD: 2.9285
+2024-09-01 16:06:58,900 - __main__ - INFO - Epoch [45/50], Loss G: 12590.9908, Loss D_A: 0.2281, Loss D_B: 0.2312
+2024-09-01 16:06:58,900 - __main__ - INFO - Chamfer Distance A: 2.9122, Chamfer Distance B: 12484.6077, MMD-CD: 2.9122
+2024-09-01 16:07:00,172 - __main__ - INFO - Epoch [46/50], Loss G: 12590.9755, Loss D_A: 0.2311, Loss D_B: 0.2319
+2024-09-01 16:07:00,172 - __main__ - INFO - Chamfer Distance A: 2.9066, Chamfer Distance B: 12484.6077, MMD-CD: 2.9066
+2024-09-01 16:07:01,205 - __main__ - INFO - Epoch [47/50], Loss G: 12590.8671, Loss D_A: 0.2321, Loss D_B: 0.2333
+2024-09-01 16:07:01,205 - __main__ - INFO - Chamfer Distance A: 2.8610, Chamfer Distance B: 12484.6077, MMD-CD: 2.8610
+2024-09-01 16:07:02,308 - __main__ - INFO - Epoch [48/50], Loss G: 12591.1109, Loss D_A: 0.2301, Loss D_B: 0.2330
+2024-09-01 16:07:02,308 - __main__ - INFO - Chamfer Distance A: 2.9648, Chamfer Distance B: 12484.6079, MMD-CD: 2.9648
+2024-09-01 16:07:04,458 - __main__ - INFO - Epoch [49/50], Loss G: 12590.9542, Loss D_A: 0.2281, Loss D_B: 0.2319
+2024-09-01 16:07:04,458 - __main__ - INFO - Chamfer Distance A: 2.8977, Chamfer Distance B: 12484.6078, MMD-CD: 2.8977
+2024-09-01 16:15:13,105 - __main__ - INFO - Number of Samples: 200
+2024-09-01 16:15:13,106 - __main__ - INFO - Sample: Data(x=[2608, 3], y=[2608], pos=[2608, 3], category=[1])
+2024-09-01 16:15:13,106 - __main__ - INFO - Number of points: 2608, Dimension of each point: 3
+2024-09-01 16:15:13,174 - __main__ - INFO - Number of points: 2582, Dimension of each point: 3
+2024-09-01 16:15:13,188 - __main__ - INFO - Train Batch: DataBatch(x=[32768, 3], y=[32768], pos=[32768, 3], category=[16], batch=[32768], ptr=[17])
+2024-09-01 16:15:13,197 - __main__ - INFO - Test Batch: DataBatch(x=[32768, 3], y=[32768], pos=[32768, 3], category=[16], batch=[32768], ptr=[17])
+2024-09-01 16:15:13,197 - __main__ - INFO - Number of Training Samples: 160
+2024-09-01 16:15:13,197 - __main__ - INFO - Number of Test Samples: 40
+2024-09-01 16:15:13,197 - __main__ - INFO - Train dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 16:15:13,198 - __main__ - INFO - Test dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 16:15:13,312 - __main__ - INFO - Original sample size: torch.Size([2048, 3])
+2024-09-01 16:15:13,312 - __main__ - INFO - Transformed sample size: torch.Size([2048, 3])
+2024-09-01 16:15:34,646 - __main__ - INFO - Number of Samples: 200
+2024-09-01 16:15:34,647 - __main__ - INFO - Sample: Data(x=[2623, 3], y=[2623], pos=[2623, 3], category=[1])
+2024-09-01 16:15:34,647 - __main__ - INFO - Number of points: 2623, Dimension of each point: 3
+2024-09-01 16:15:34,718 - __main__ - INFO - Number of points: 2706, Dimension of each point: 3
+2024-09-01 16:15:34,730 - __main__ - INFO - Train Batch: DataBatch(x=[32768, 3], y=[32768], pos=[32768, 3], category=[16], batch=[32768], ptr=[17])
+2024-09-01 16:15:34,740 - __main__ - INFO - Test Batch: DataBatch(x=[32768, 3], y=[32768], pos=[32768, 3], category=[16], batch=[32768], ptr=[17])
+2024-09-01 16:15:34,740 - __main__ - INFO - Number of Training Samples: 160
+2024-09-01 16:15:34,740 - __main__ - INFO - Number of Test Samples: 40
+2024-09-01 16:15:34,740 - __main__ - INFO - Train dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 16:15:34,741 - __main__ - INFO - Test dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 16:15:34,855 - __main__ - INFO - Original sample size: torch.Size([2048, 3])
+2024-09-01 16:15:34,855 - __main__ - INFO - Transformed sample size: torch.Size([2048, 3])
+2024-09-01 16:15:39,496 - __main__ - INFO - Epoch [0/1], Loss G: 15337.5846, Loss D_A: 0.8178, Loss D_B: 0.5202
+2024-09-01 16:15:39,496 - __main__ - INFO - Chamfer Distance A: 26.2308, Chamfer Distance B: 15167.1437, MMD-CD: 26.2308
+2024-09-01 16:16:14,172 - __main__ - INFO - Number of Samples: 200
+2024-09-01 16:16:14,173 - __main__ - INFO - Sample: Data(x=[2556, 3], y=[2556], pos=[2556, 3], category=[1])
+2024-09-01 16:16:14,173 - __main__ - INFO - Number of points: 2556, Dimension of each point: 3
+2024-09-01 16:16:14,240 - __main__ - INFO - Number of points: 2579, Dimension of each point: 3
+2024-09-01 16:16:14,245 - __main__ - INFO - Train Batch: DataBatch(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1], batch=[2048], ptr=[2])
+2024-09-01 16:16:14,248 - __main__ - INFO - Test Batch: DataBatch(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1], batch=[2048], ptr=[2])
+2024-09-01 16:16:14,248 - __main__ - INFO - Number of Training Samples: 160
+2024-09-01 16:16:14,248 - __main__ - INFO - Number of Test Samples: 40
+2024-09-01 16:16:14,249 - __main__ - INFO - Train dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 16:16:14,250 - __main__ - INFO - Test dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 16:16:14,355 - __main__ - INFO - Original sample size: torch.Size([2048, 3])
+2024-09-01 16:16:14,355 - __main__ - INFO - Transformed sample size: torch.Size([2048, 3])
+2024-09-01 16:16:35,350 - __main__ - INFO - Epoch [0/1], Loss G: 3.7576, Loss D_A: 0.3948, Loss D_B: 0.3993
+2024-09-01 16:16:35,350 - __main__ - INFO - Chamfer Distance A: 0.1818, Chamfer Distance B: 0.6167, MMD-CD: 0.1818
+2024-09-01 16:20:08,328 - __main__ - INFO - Number of Samples: 200
+2024-09-01 16:20:08,328 - __main__ - INFO - Sample: Data(x=[2462, 3], y=[2462], pos=[2462, 3], category=[1])
+2024-09-01 16:20:08,328 - __main__ - INFO - Number of points: 2462, Dimension of each point: 3
+2024-09-01 16:20:08,398 - __main__ - INFO - Number of points: 2596, Dimension of each point: 3
+2024-09-01 16:20:08,403 - __main__ - INFO - Train Batch: DataBatch(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1], batch=[2048], ptr=[2])
+2024-09-01 16:20:08,404 - __main__ - INFO - Test Batch: DataBatch(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1], batch=[2048], ptr=[2])
+2024-09-01 16:20:08,404 - __main__ - INFO - Number of Training Samples: 160
+2024-09-01 16:20:08,404 - __main__ - INFO - Number of Test Samples: 40
+2024-09-01 16:20:08,405 - __main__ - INFO - Train dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 16:20:08,405 - __main__ - INFO - Test dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 16:20:08,514 - __main__ - INFO - Original sample size: torch.Size([2048, 3])
+2024-09-01 16:20:08,514 - __main__ - INFO - Transformed sample size: torch.Size([2048, 3])
+2024-09-01 16:20:26,042 - __main__ - INFO - Number of Samples: 10
+2024-09-01 16:20:26,043 - __main__ - INFO - Sample: Data(x=[2595, 3], y=[2595], pos=[2595, 3], category=[1])
+2024-09-01 16:20:26,043 - __main__ - INFO - Number of points: 2595, Dimension of each point: 3
+2024-09-01 16:20:26,113 - __main__ - INFO - Number of points: 2646, Dimension of each point: 3
+2024-09-01 16:20:26,117 - __main__ - INFO - Train Batch: DataBatch(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1], batch=[2048], ptr=[2])
+2024-09-01 16:20:26,118 - __main__ - INFO - Test Batch: DataBatch(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1], batch=[2048], ptr=[2])
+2024-09-01 16:20:26,118 - __main__ - INFO - Number of Training Samples: 8
+2024-09-01 16:20:26,118 - __main__ - INFO - Number of Test Samples: 2
+2024-09-01 16:20:26,119 - __main__ - INFO - Train dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 16:20:26,119 - __main__ - INFO - Test dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 16:20:26,225 - __main__ - INFO - Original sample size: torch.Size([2048, 3])
+2024-09-01 16:20:26,225 - __main__ - INFO - Transformed sample size: torch.Size([2048, 3])
+2024-09-01 16:20:30,756 - __main__ - INFO - Epoch [0/1], Loss G: 9.3533, Loss D_A: 0.8467, Loss D_B: 0.5755
+2024-09-01 16:20:30,756 - __main__ - INFO - Chamfer Distance A: 0.1869, Chamfer Distance B: 1.2966, MMD-CD: 0.1869
+2024-09-01 16:23:27,861 - __main__ - INFO - Number of Samples: 10
+2024-09-01 16:23:27,862 - __main__ - INFO - Sample: Data(x=[2579, 3], y=[2579], pos=[2579, 3], category=[1])
+2024-09-01 16:23:27,862 - __main__ - INFO - Number of points: 2579, Dimension of each point: 3
+2024-09-01 16:23:27,931 - __main__ - INFO - Number of points: 2623, Dimension of each point: 3
+2024-09-01 16:23:27,936 - __main__ - INFO - Train Batch: DataBatch(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1], batch=[2048], ptr=[2])
+2024-09-01 16:23:27,937 - __main__ - INFO - Test Batch: DataBatch(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1], batch=[2048], ptr=[2])
+2024-09-01 16:23:27,937 - __main__ - INFO - Number of Training Samples: 8
+2024-09-01 16:23:27,937 - __main__ - INFO - Number of Test Samples: 2
+2024-09-01 16:23:27,938 - __main__ - INFO - Train dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 16:23:27,938 - __main__ - INFO - Test dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 16:23:28,044 - __main__ - INFO - Original sample size: torch.Size([2048, 3])
+2024-09-01 16:23:28,044 - __main__ - INFO - Transformed sample size: torch.Size([2048, 3])
+2024-09-01 16:23:32,421 - __main__ - INFO - Epoch [0/1], Loss G: 9.0056, Loss D_A: 0.7432, Loss D_B: 0.6034
+2024-09-01 16:23:32,421 - __main__ - INFO - Chamfer Distance A: 0.1826, Chamfer Distance B: 1.2698, MMD-CD: 0.1826
+2024-09-01 16:24:01,940 - __main__ - INFO - Number of Samples: 10
+2024-09-01 16:24:01,940 - __main__ - INFO - Sample: Data(x=[2568, 3], y=[2568], pos=[2568, 3], category=[1])
+2024-09-01 16:24:01,940 - __main__ - INFO - Number of points: 2568, Dimension of each point: 3
+2024-09-01 16:24:02,008 - __main__ - INFO - Number of points: 2584, Dimension of each point: 3
+2024-09-01 16:24:02,013 - __main__ - INFO - Train Batch: DataBatch(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1], batch=[2048], ptr=[2])
+2024-09-01 16:24:02,014 - __main__ - INFO - Test Batch: DataBatch(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1], batch=[2048], ptr=[2])
+2024-09-01 16:24:02,014 - __main__ - INFO - Number of Training Samples: 8
+2024-09-01 16:24:02,014 - __main__ - INFO - Number of Test Samples: 2
+2024-09-01 16:24:02,014 - __main__ - INFO - Train dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 16:24:02,015 - __main__ - INFO - Test dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 16:24:02,122 - __main__ - INFO - Original sample size: torch.Size([2048, 3])
+2024-09-01 16:24:02,122 - __main__ - INFO - Transformed sample size: torch.Size([2048, 3])
+2024-09-01 16:24:06,518 - __main__ - INFO - Epoch [0/1], Loss G: 9.0471, Loss D_A: 0.8292, Loss D_B: 0.7041
+2024-09-01 16:24:06,518 - __main__ - INFO - Chamfer Distance A: 0.1810, Chamfer Distance B: 1.2350, MMD-CD: 0.1810
+2024-09-01 16:33:28,179 - __main__ - INFO - Number of Samples: 10
+2024-09-01 16:33:28,179 - __main__ - INFO - Sample: Data(x=[2553, 3], y=[2553], pos=[2553, 3], category=[1])
+2024-09-01 16:33:28,179 - __main__ - INFO - Number of points: 2553, Dimension of each point: 3
+2024-09-01 16:33:28,245 - __main__ - INFO - Number of points: 2498, Dimension of each point: 3
+2024-09-01 16:33:28,256 - __main__ - INFO - Number of Training Samples: 8
+2024-09-01 16:33:28,256 - __main__ - INFO - Number of Test Samples: 2
+2024-09-01 16:33:28,256 - __main__ - INFO - Train dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 16:33:28,257 - __main__ - INFO - Test dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 16:33:28,366 - __main__ - INFO - Original sample size: torch.Size([2048, 3])
+2024-09-01 16:33:28,366 - __main__ - INFO - Transformed sample size: torch.Size([2048, 3])
+2024-09-01 16:33:32,148 - __main__ - INFO - Epoch [0/50], Loss G: 1802.0894, Loss D_A: 0.7067, Loss D_B: 0.5516
+2024-09-01 16:33:32,148 - __main__ - INFO - Chamfer Distance A: 8.9874, Chamfer Distance B: 1724.8965, MMD-CD: 8.9874
+2024-09-01 16:33:32,739 - __main__ - INFO - Epoch [1/50], Loss G: 1802.4388, Loss D_A: 0.6622, Loss D_B: 0.5507
+2024-09-01 16:33:32,739 - __main__ - INFO - Chamfer Distance A: 8.7768, Chamfer Distance B: 1725.7509, MMD-CD: 8.7769
+2024-09-01 16:33:32,828 - __main__ - INFO - Epoch [2/50], Loss G: 1800.3302, Loss D_A: 2.1137, Loss D_B: 0.7874
+2024-09-01 16:33:32,828 - __main__ - INFO - Chamfer Distance A: 8.9939, Chamfer Distance B: 1724.0647, MMD-CD: 8.9939
+2024-09-01 16:33:32,925 - __main__ - INFO - Epoch [3/50], Loss G: 1800.0980, Loss D_A: 1.4304, Loss D_B: 0.7869
+2024-09-01 16:33:32,925 - __main__ - INFO - Chamfer Distance A: 8.8358, Chamfer Distance B: 1724.6714, MMD-CD: 8.8359
+2024-09-01 16:33:33,021 - __main__ - INFO - Epoch [4/50], Loss G: 1800.1152, Loss D_A: 0.5304, Loss D_B: 0.4768
+2024-09-01 16:33:33,022 - __main__ - INFO - Chamfer Distance A: 8.9973, Chamfer Distance B: 1724.9543, MMD-CD: 8.9973
+2024-09-01 16:33:33,115 - __main__ - INFO - Epoch [5/50], Loss G: 1798.7985, Loss D_A: 0.4371, Loss D_B: 0.4204
+2024-09-01 16:33:33,115 - __main__ - INFO - Chamfer Distance A: 8.7117, Chamfer Distance B: 1724.0861, MMD-CD: 8.7117
+2024-09-01 16:33:33,224 - __main__ - INFO - Epoch [6/50], Loss G: 1800.5527, Loss D_A: 0.4068, Loss D_B: 0.3818
+2024-09-01 16:33:33,224 - __main__ - INFO - Chamfer Distance A: 8.7817, Chamfer Distance B: 1725.9467, MMD-CD: 8.7817
+2024-09-01 16:33:33,328 - __main__ - INFO - Epoch [7/50], Loss G: 1651.2996, Loss D_A: 0.2924, Loss D_B: 0.4056
+2024-09-01 16:33:33,328 - __main__ - INFO - Chamfer Distance A: 7.2775, Chamfer Distance B: 1582.3257, MMD-CD: 7.2776
+2024-09-01 16:33:33,431 - __main__ - INFO - Epoch [8/50], Loss G: 1521.8344, Loss D_A: 0.4028, Loss D_B: 0.3425
+2024-09-01 16:33:33,431 - __main__ - INFO - Chamfer Distance A: 5.2379, Chamfer Distance B: 1459.6967, MMD-CD: 5.2379
+2024-09-01 16:33:33,537 - __main__ - INFO - Epoch [9/50], Loss G: 1420.0574, Loss D_A: 0.5344, Loss D_B: 0.3474
+2024-09-01 16:33:33,537 - __main__ - INFO - Chamfer Distance A: 4.1074, Chamfer Distance B: 1362.4258, MMD-CD: 4.1074
+2024-09-01 16:33:33,679 - __main__ - INFO - Epoch [10/50], Loss G: 1346.9583, Loss D_A: 0.3679, Loss D_B: 0.3235
+2024-09-01 16:33:33,679 - __main__ - INFO - Chamfer Distance A: 3.3364, Chamfer Distance B: 1292.4496, MMD-CD: 3.3364
+2024-09-01 16:33:34,237 - __main__ - INFO - Epoch [11/50], Loss G: 1300.1635, Loss D_A: 0.6766, Loss D_B: 0.5972
+2024-09-01 16:33:34,237 - __main__ - INFO - Chamfer Distance A: 3.2771, Chamfer Distance B: 1246.8307, MMD-CD: 3.2771
+2024-09-01 16:33:34,351 - __main__ - INFO - Epoch [12/50], Loss G: 1269.5139, Loss D_A: 0.5101, Loss D_B: 0.8153
+2024-09-01 16:33:34,351 - __main__ - INFO - Chamfer Distance A: 2.8735, Chamfer Distance B: 1217.0577, MMD-CD: 2.8735
+2024-09-01 16:33:34,457 - __main__ - INFO - Epoch [13/50], Loss G: 1250.5400, Loss D_A: 1.6494, Loss D_B: 0.9408
+2024-09-01 16:33:34,457 - __main__ - INFO - Chamfer Distance A: 2.9190, Chamfer Distance B: 1197.0718, MMD-CD: 2.9190
+2024-09-01 16:33:34,563 - __main__ - INFO - Epoch [14/50], Loss G: 1238.4757, Loss D_A: 0.8827, Loss D_B: 0.7311
+2024-09-01 16:33:34,563 - __main__ - INFO - Chamfer Distance A: 3.5291, Chamfer Distance B: 1184.7151, MMD-CD: 3.5291
+2024-09-01 16:33:34,667 - __main__ - INFO - Epoch [15/50], Loss G: 1228.1940, Loss D_A: 1.5018, Loss D_B: 0.5143
+2024-09-01 16:33:34,667 - __main__ - INFO - Chamfer Distance A: 2.9755, Chamfer Distance B: 1175.6638, MMD-CD: 2.9756
+2024-09-01 16:33:34,770 - __main__ - INFO - Epoch [16/50], Loss G: 1220.2729, Loss D_A: 0.7219, Loss D_B: 0.3825
+2024-09-01 16:33:34,770 - __main__ - INFO - Chamfer Distance A: 3.2974, Chamfer Distance B: 1168.7350, MMD-CD: 3.2974
+2024-09-01 16:33:34,873 - __main__ - INFO - Epoch [17/50], Loss G: 1212.5476, Loss D_A: 0.5809, Loss D_B: 0.3464
+2024-09-01 16:33:34,873 - __main__ - INFO - Chamfer Distance A: 2.4767, Chamfer Distance B: 1163.2552, MMD-CD: 2.4767
+2024-09-01 16:33:34,975 - __main__ - INFO - Epoch [18/50], Loss G: 1208.4320, Loss D_A: 0.6997, Loss D_B: 0.2954
+2024-09-01 16:33:34,975 - __main__ - INFO - Chamfer Distance A: 2.3069, Chamfer Distance B: 1159.5073, MMD-CD: 2.3069
+2024-09-01 16:33:35,078 - __main__ - INFO - Epoch [19/50], Loss G: 1205.4209, Loss D_A: 0.6414, Loss D_B: 0.3051
+2024-09-01 16:33:35,078 - __main__ - INFO - Chamfer Distance A: 2.3444, Chamfer Distance B: 1156.4373, MMD-CD: 2.3444
+2024-09-01 16:33:35,180 - __main__ - INFO - Epoch [20/50], Loss G: 1201.9738, Loss D_A: 0.5182, Loss D_B: 0.3054
+2024-09-01 16:33:35,180 - __main__ - INFO - Chamfer Distance A: 2.1956, Chamfer Distance B: 1153.7185, MMD-CD: 2.1957
+2024-09-01 16:33:35,829 - __main__ - INFO - Epoch [21/50], Loss G: 1199.8940, Loss D_A: 0.5985, Loss D_B: 0.2992
+2024-09-01 16:33:35,829 - __main__ - INFO - Chamfer Distance A: 2.2748, Chamfer Distance B: 1151.7185, MMD-CD: 2.2748
+2024-09-01 16:33:36,053 - __main__ - INFO - Epoch [22/50], Loss G: 1197.4891, Loss D_A: 0.5965, Loss D_B: 0.2877
+2024-09-01 16:33:36,053 - __main__ - INFO - Chamfer Distance A: 2.0120, Chamfer Distance B: 1149.7190, MMD-CD: 2.0120
+2024-09-01 16:33:36,144 - __main__ - INFO - Epoch [23/50], Loss G: 1196.3729, Loss D_A: 0.5489, Loss D_B: 0.3012
+2024-09-01 16:33:36,145 - __main__ - INFO - Chamfer Distance A: 2.4114, Chamfer Distance B: 1148.0641, MMD-CD: 2.4114
+2024-09-01 16:33:36,250 - __main__ - INFO - Epoch [24/50], Loss G: 1195.0260, Loss D_A: 0.5292, Loss D_B: 0.2890
+2024-09-01 16:33:36,250 - __main__ - INFO - Chamfer Distance A: 2.2688, Chamfer Distance B: 1146.8291, MMD-CD: 2.2689
+2024-09-01 16:33:36,355 - __main__ - INFO - Epoch [25/50], Loss G: 1193.0370, Loss D_A: 0.4171, Loss D_B: 0.2976
+2024-09-01 16:33:36,355 - __main__ - INFO - Chamfer Distance A: 2.1637, Chamfer Distance B: 1145.5061, MMD-CD: 2.1637
+2024-09-01 16:33:36,458 - __main__ - INFO - Epoch [26/50], Loss G: 1191.3502, Loss D_A: 0.4638, Loss D_B: 0.2892
+2024-09-01 16:33:36,458 - __main__ - INFO - Chamfer Distance A: 1.9419, Chamfer Distance B: 1144.2258, MMD-CD: 1.9419
+2024-09-01 16:33:36,561 - __main__ - INFO - Epoch [27/50], Loss G: 1191.0524, Loss D_A: 0.4546, Loss D_B: 0.2919
+2024-09-01 16:33:36,561 - __main__ - INFO - Chamfer Distance A: 2.1906, Chamfer Distance B: 1143.6660, MMD-CD: 2.1906
+2024-09-01 16:33:36,664 - __main__ - INFO - Epoch [28/50], Loss G: 1189.1012, Loss D_A: 0.3870, Loss D_B: 0.2965
+2024-09-01 16:33:36,664 - __main__ - INFO - Chamfer Distance A: 1.8505, Chamfer Distance B: 1142.4784, MMD-CD: 1.8506
+2024-09-01 16:33:36,770 - __main__ - INFO - Epoch [29/50], Loss G: 1189.5211, Loss D_A: 0.5434, Loss D_B: 0.2852
+2024-09-01 16:33:36,770 - __main__ - INFO - Chamfer Distance A: 2.0842, Chamfer Distance B: 1142.0431, MMD-CD: 2.0842
+2024-09-01 16:33:36,874 - __main__ - INFO - Epoch [30/50], Loss G: 1188.1486, Loss D_A: 0.4193, Loss D_B: 0.3013
+2024-09-01 16:33:36,874 - __main__ - INFO - Chamfer Distance A: 2.0149, Chamfer Distance B: 1141.1183, MMD-CD: 2.0149
+2024-09-01 16:33:37,428 - __main__ - INFO - Epoch [31/50], Loss G: 1188.1010, Loss D_A: 0.5614, Loss D_B: 0.2758
+2024-09-01 16:33:37,429 - __main__ - INFO - Chamfer Distance A: 2.1227, Chamfer Distance B: 1140.6578, MMD-CD: 2.1227
+2024-09-01 16:33:37,535 - __main__ - INFO - Epoch [32/50], Loss G: 1187.3656, Loss D_A: 0.3189, Loss D_B: 0.3199
+2024-09-01 16:33:37,535 - __main__ - INFO - Chamfer Distance A: 2.1490, Chamfer Distance B: 1140.0131, MMD-CD: 2.1490
+2024-09-01 16:33:37,641 - __main__ - INFO - Epoch [33/50], Loss G: 1186.7532, Loss D_A: 0.4496, Loss D_B: 0.2619
+2024-09-01 16:33:37,641 - __main__ - INFO - Chamfer Distance A: 2.0854, Chamfer Distance B: 1139.5712, MMD-CD: 2.0854
+2024-09-01 16:33:37,747 - __main__ - INFO - Epoch [34/50], Loss G: 1185.3480, Loss D_A: 0.4427, Loss D_B: 0.3714
+2024-09-01 16:33:37,747 - __main__ - INFO - Chamfer Distance A: 1.7950, Chamfer Distance B: 1139.0463, MMD-CD: 1.7950
+2024-09-01 16:33:38,194 - __main__ - INFO - Epoch [35/50], Loss G: 1185.7385, Loss D_A: 0.4365, Loss D_B: 0.2522
+2024-09-01 16:33:38,194 - __main__ - INFO - Chamfer Distance A: 2.0093, Chamfer Distance B: 1138.8165, MMD-CD: 2.0093
+2024-09-01 16:33:38,298 - __main__ - INFO - Epoch [36/50], Loss G: 1184.8376, Loss D_A: 0.3692, Loss D_B: 0.4210
+2024-09-01 16:33:38,298 - __main__ - INFO - Chamfer Distance A: 1.9273, Chamfer Distance B: 1138.2017, MMD-CD: 1.9273
+2024-09-01 16:33:38,392 - __main__ - INFO - Epoch [37/50], Loss G: 1184.2489, Loss D_A: 0.3155, Loss D_B: 0.2634
+2024-09-01 16:33:38,392 - __main__ - INFO - Chamfer Distance A: 1.8166, Chamfer Distance B: 1137.8315, MMD-CD: 1.8166
+2024-09-01 16:33:38,494 - __main__ - INFO - Epoch [38/50], Loss G: 1183.7244, Loss D_A: 0.4060, Loss D_B: 0.3442
+2024-09-01 16:33:38,494 - __main__ - INFO - Chamfer Distance A: 1.8122, Chamfer Distance B: 1137.5414, MMD-CD: 1.8122
+2024-09-01 16:33:38,596 - __main__ - INFO - Epoch [39/50], Loss G: 1183.6577, Loss D_A: 0.3356, Loss D_B: 0.2906
+2024-09-01 16:33:38,596 - __main__ - INFO - Chamfer Distance A: 1.8969, Chamfer Distance B: 1137.1561, MMD-CD: 1.8969
+2024-09-01 16:33:38,698 - __main__ - INFO - Epoch [40/50], Loss G: 1183.1024, Loss D_A: 0.3639, Loss D_B: 0.2887
+2024-09-01 16:33:38,698 - __main__ - INFO - Chamfer Distance A: 1.7506, Chamfer Distance B: 1137.0278, MMD-CD: 1.7506
+2024-09-01 16:33:39,265 - __main__ - INFO - Epoch [41/50], Loss G: 1182.7212, Loss D_A: 0.4264, Loss D_B: 0.3144
+2024-09-01 16:33:39,265 - __main__ - INFO - Chamfer Distance A: 1.7336, Chamfer Distance B: 1136.6621, MMD-CD: 1.7336
+2024-09-01 16:33:39,372 - __main__ - INFO - Epoch [42/50], Loss G: 1182.5792, Loss D_A: 0.3446, Loss D_B: 0.2823
+2024-09-01 16:33:39,372 - __main__ - INFO - Chamfer Distance A: 1.7758, Chamfer Distance B: 1136.3763, MMD-CD: 1.7758
+2024-09-01 16:33:39,476 - __main__ - INFO - Epoch [43/50], Loss G: 1181.8339, Loss D_A: 0.3452, Loss D_B: 0.3112
+2024-09-01 16:33:39,476 - __main__ - INFO - Chamfer Distance A: 1.5871, Chamfer Distance B: 1136.2214, MMD-CD: 1.5871
+2024-09-01 16:33:39,579 - __main__ - INFO - Epoch [44/50], Loss G: 1181.7258, Loss D_A: 0.4306, Loss D_B: 0.2843
+2024-09-01 16:33:39,579 - __main__ - INFO - Chamfer Distance A: 1.6393, Chamfer Distance B: 1136.0001, MMD-CD: 1.6393
+2024-09-01 16:33:39,681 - __main__ - INFO - Epoch [45/50], Loss G: 1181.7296, Loss D_A: 0.3278, Loss D_B: 0.3082
+2024-09-01 16:33:39,681 - __main__ - INFO - Chamfer Distance A: 1.6322, Chamfer Distance B: 1135.8250, MMD-CD: 1.6322
+2024-09-01 16:33:39,783 - __main__ - INFO - Epoch [46/50], Loss G: 1182.3271, Loss D_A: 0.3437, Loss D_B: 0.2812
+2024-09-01 16:33:39,784 - __main__ - INFO - Chamfer Distance A: 1.9053, Chamfer Distance B: 1135.6160, MMD-CD: 1.9053
+2024-09-01 16:33:39,886 - __main__ - INFO - Epoch [47/50], Loss G: 1181.6896, Loss D_A: 0.4318, Loss D_B: 0.3125
+2024-09-01 16:33:39,886 - __main__ - INFO - Chamfer Distance A: 1.8421, Chamfer Distance B: 1135.3573, MMD-CD: 1.8421
+2024-09-01 16:33:39,989 - __main__ - INFO - Epoch [48/50], Loss G: 1181.1794, Loss D_A: 0.4348, Loss D_B: 0.2661
+2024-09-01 16:33:39,989 - __main__ - INFO - Chamfer Distance A: 1.7104, Chamfer Distance B: 1135.1143, MMD-CD: 1.7104
+2024-09-01 16:33:40,102 - __main__ - INFO - Epoch [49/50], Loss G: 1182.6442, Loss D_A: 0.6691, Loss D_B: 0.3383
+2024-09-01 16:33:40,102 - __main__ - INFO - Chamfer Distance A: 2.1670, Chamfer Distance B: 1135.0365, MMD-CD: 2.1670
+2024-09-01 16:33:40,106 - __main__ - INFO - Shape of real_A: torch.Size([1, 3, 64, 64])
+2024-09-01 16:33:40,106 - __main__ - INFO - Shape of real_B before expanding: torch.Size([1, 1, 64, 64])
+2024-09-01 16:33:40,107 - __main__ - INFO - Shape of real_B: torch.Size([1, 3, 64, 64])
+2024-09-01 16:33:40,153 - __main__ - INFO - Test Loss: 7.0586
+2024-09-01 16:33:40,153 - __main__ - INFO - Chamfer Distance A: 0.0022
+2024-09-01 16:33:40,153 - __main__ - INFO - Chamfer Distance B: 0.0314
+2024-09-01 16:33:40,154 - __main__ - INFO - MMD_CD: 0.4253
+2024-09-01 16:34:52,785 - __main__ - INFO - Number of Samples: 10
+2024-09-01 16:34:52,786 - __main__ - INFO - Sample: Data(x=[2509, 3], y=[2509], pos=[2509, 3], category=[1])
+2024-09-01 16:34:52,786 - __main__ - INFO - Number of points: 2509, Dimension of each point: 3
+2024-09-01 16:34:52,857 - __main__ - INFO - Number of points: 2655, Dimension of each point: 3
+2024-09-01 16:34:52,867 - __main__ - INFO - Number of Training Samples: 8
+2024-09-01 16:34:52,867 - __main__ - INFO - Number of Test Samples: 2
+2024-09-01 16:34:52,867 - __main__ - INFO - Train dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 16:34:52,868 - __main__ - INFO - Test dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 16:34:52,979 - __main__ - INFO - Original sample size: torch.Size([2048, 3])
+2024-09-01 16:34:52,979 - __main__ - INFO - Transformed sample size: torch.Size([2048, 3])
+2024-09-01 16:34:56,912 - __main__ - INFO - Epoch [0/1], Loss G: 1694.3420, Loss D_A: 1.1136, Loss D_B: 0.5689
+2024-09-01 16:34:56,913 - __main__ - INFO - Chamfer Distance A: 10.8187, Chamfer Distance B: 1614.4664, MMD-CD: 10.8187
+2024-09-01 16:34:57,410 - __main__ - INFO - Shape of real_A: torch.Size([1, 3, 64, 64])
+2024-09-01 16:34:57,410 - __main__ - INFO - Shape of real_B before expanding: torch.Size([1, 1, 64, 64])
+2024-09-01 16:34:57,410 - __main__ - INFO - Shape of real_B: torch.Size([1, 3, 64, 64])
+2024-09-01 16:34:57,461 - __main__ - INFO - Test Loss: 13.9979
+2024-09-01 16:34:57,461 - __main__ - INFO - Chamfer Distance A: 0.0079
+2024-09-01 16:34:57,461 - __main__ - INFO - Chamfer Distance B: 0.0332
+2024-09-01 16:34:57,461 - __main__ - INFO - MMD_CD: 1.5145
+2024-09-01 19:37:36,367 - __main__ - INFO - Number of Samples: 10
+2024-09-01 19:37:36,367 - __main__ - INFO - Sample: Data(x=[2628, 3], y=[2628], pos=[2628, 3], category=[1])
+2024-09-01 19:37:36,367 - __main__ - INFO - Number of points: 2628, Dimension of each point: 3
+2024-09-01 19:37:36,435 - __main__ - INFO - Number of points: 2555, Dimension of each point: 3
+2024-09-01 19:37:36,445 - __main__ - INFO - Number of Training Samples: 8
+2024-09-01 19:37:36,445 - __main__ - INFO - Number of Test Samples: 2
+2024-09-01 19:37:36,446 - __main__ - INFO - Train dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 19:37:36,446 - __main__ - INFO - Test dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 19:37:36,555 - __main__ - INFO - Original sample size: torch.Size([2048, 3])
+2024-09-01 19:37:36,555 - __main__ - INFO - Transformed sample size: torch.Size([2048, 3])
+2024-09-01 19:37:40,317 - __main__ - INFO - Epoch [0/1], Loss G: 1813.2373, Loss D_A: 0.6853, Loss D_B: 0.5334
+2024-09-01 19:37:40,318 - __main__ - INFO - Chamfer Distance A: 11.4573, Chamfer Distance B: 1730.7325, MMD-CD: 11.4573
+2024-09-01 19:37:40,808 - __main__ - INFO - Shape of real_A: torch.Size([1, 3, 64, 64])
+2024-09-01 19:37:40,808 - __main__ - INFO - Shape of real_B before expanding: torch.Size([1, 1, 64, 64])
+2024-09-01 19:37:40,809 - __main__ - INFO - Shape of real_B: torch.Size([1, 3, 64, 64])
+2024-09-01 19:37:40,855 - __main__ - INFO - Test Loss: 13.4252
+2024-09-01 19:37:40,855 - __main__ - INFO - Chamfer Distance A: 0.0083
+2024-09-01 19:37:40,855 - __main__ - INFO - Chamfer Distance B: 0.0405
+2024-09-01 19:37:40,855 - __main__ - INFO - MMD_CD: 1.5862
+2024-09-01 19:38:36,244 - __main__ - INFO - Number of Samples: 10
+2024-09-01 19:38:36,244 - __main__ - INFO - Sample: Data(x=[2529, 3], y=[2529], pos=[2529, 3], category=[1])
+2024-09-01 19:38:36,245 - __main__ - INFO - Number of points: 2529, Dimension of each point: 3
+2024-09-01 19:38:36,316 - __main__ - INFO - Number of points: 2678, Dimension of each point: 3
+2024-09-01 19:38:36,327 - __main__ - INFO - Number of Training Samples: 8
+2024-09-01 19:38:36,327 - __main__ - INFO - Number of Test Samples: 2
+2024-09-01 19:38:36,327 - __main__ - INFO - Train dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 19:38:36,328 - __main__ - INFO - Test dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 19:38:36,437 - __main__ - INFO - Original sample size: torch.Size([2048, 3])
+2024-09-01 19:38:36,437 - __main__ - INFO - Transformed sample size: torch.Size([2048, 3])
+2024-09-01 19:38:40,386 - __main__ - INFO - Epoch [0/1], Loss G: 1708.5156, Loss D_A: 0.6176, Loss D_B: 0.5816
+2024-09-01 19:38:40,387 - __main__ - INFO - Chamfer Distance A: 10.6229, Chamfer Distance B: 1629.7000, MMD-CD: 10.6229
+2024-09-01 19:38:40,880 - __main__ - INFO - Shape of real_A: torch.Size([1, 3, 64, 64])
+2024-09-01 19:38:40,881 - __main__ - INFO - Shape of real_B before expanding: torch.Size([1, 1, 64, 64])
+2024-09-01 19:38:40,881 - __main__ - INFO - Shape of real_B: torch.Size([1, 3, 64, 64])
+2024-09-01 19:38:40,950 - __main__ - INFO - Test Loss: 12.3898
+2024-09-01 19:38:40,950 - __main__ - INFO - Chamfer Distance A: 0.0081
+2024-09-01 19:38:40,950 - __main__ - INFO - Chamfer Distance B: 0.0295
+2024-09-01 19:38:40,950 - __main__ - INFO - MMD_CD: 1.5581
+2024-09-01 19:39:34,472 - __main__ - INFO - Number of Samples: 10
+2024-09-01 19:39:34,473 - __main__ - INFO - Sample: Data(x=[2458, 3], y=[2458], pos=[2458, 3], category=[1])
+2024-09-01 19:39:34,473 - __main__ - INFO - Number of points: 2458, Dimension of each point: 3
+2024-09-01 19:39:34,541 - __main__ - INFO - Number of points: 2575, Dimension of each point: 3
+2024-09-01 19:39:34,551 - __main__ - INFO - Number of Training Samples: 8
+2024-09-01 19:39:34,551 - __main__ - INFO - Number of Test Samples: 2
+2024-09-01 19:39:34,552 - __main__ - INFO - Train dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 19:39:34,552 - __main__ - INFO - Test dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 19:39:34,661 - __main__ - INFO - Original sample size: torch.Size([2048, 3])
+2024-09-01 19:39:34,661 - __main__ - INFO - Transformed sample size: torch.Size([2048, 3])
+2024-09-01 19:39:38,404 - __main__ - INFO - Epoch [0/1], Loss G: 1779.2013, Loss D_A: 0.4001, Loss D_B: 0.7088
+2024-09-01 19:39:38,404 - __main__ - INFO - Chamfer Distance A: 11.3463, Chamfer Distance B: 1698.0256, MMD-CD: 11.3463
+2024-09-01 19:39:38,849 - __main__ - INFO - Shape of real_A: torch.Size([1, 3, 64, 64])
+2024-09-01 19:39:38,849 - __main__ - INFO - Shape of real_B before expanding: torch.Size([1, 1, 64, 64])
+2024-09-01 19:39:38,849 - __main__ - INFO - Shape of real_B: torch.Size([1, 3, 64, 64])
+2024-09-01 19:39:38,900 - __main__ - INFO - Test Loss: 12.8265
+2024-09-01 19:39:38,901 - __main__ - INFO - Chamfer Distance A: 0.0087
+2024-09-01 19:39:38,901 - __main__ - INFO - Chamfer Distance B: 0.0364
+2024-09-01 19:39:38,901 - __main__ - INFO - MMD_CD: 1.6730
+2024-09-01 19:42:03,847 - __main__ - INFO - Number of Samples: 10
+2024-09-01 19:42:03,848 - __main__ - INFO - Sample: Data(x=[2546, 3], y=[2546], pos=[2546, 3], category=[1])
+2024-09-01 19:42:03,848 - __main__ - INFO - Number of points: 2546, Dimension of each point: 3
+2024-09-01 19:42:03,916 - __main__ - INFO - Number of points: 2536, Dimension of each point: 3
+2024-09-01 19:42:03,925 - __main__ - INFO - Number of Training Samples: 8
+2024-09-01 19:42:03,925 - __main__ - INFO - Number of Test Samples: 2
+2024-09-01 19:42:03,926 - __main__ - INFO - Train dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 19:42:03,926 - __main__ - INFO - Test dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 19:42:04,038 - __main__ - INFO - Original sample size: torch.Size([2048, 3])
+2024-09-01 19:42:04,038 - __main__ - INFO - Transformed sample size: torch.Size([2048, 3])
+2024-09-01 19:42:07,768 - __main__ - INFO - Epoch [0/1], Loss G: 1782.5962, Loss D_A: 0.5928, Loss D_B: 0.9725
+2024-09-01 19:42:07,768 - __main__ - INFO - Chamfer Distance A: 9.6401, Chamfer Distance B: 1703.9335, MMD-CD: 9.6401
+2024-09-01 19:42:08,253 - __main__ - INFO - Shape of real_A: torch.Size([1, 3, 64, 64])
+2024-09-01 19:42:08,253 - __main__ - INFO - Shape of real_B before expanding: torch.Size([1, 1, 64, 64])
+2024-09-01 19:42:08,253 - __main__ - INFO - Shape of real_B: torch.Size([1, 3, 64, 64])
+2024-09-01 19:42:08,302 - __main__ - INFO - Test Loss: 13.6608
+2024-09-01 19:42:08,302 - __main__ - INFO - Chamfer Distance A: 0.0072
+2024-09-01 19:42:08,302 - __main__ - INFO - Chamfer Distance B: 0.0417
+2024-09-01 19:42:08,303 - __main__ - INFO - MMD_CD: 1.3789
+2024-09-01 19:43:35,142 - __main__ - INFO - Number of Samples: 10
+2024-09-01 19:43:35,143 - __main__ - INFO - Sample: Data(x=[2445, 3], y=[2445], pos=[2445, 3], category=[1])
+2024-09-01 19:43:35,143 - __main__ - INFO - Number of points: 2445, Dimension of each point: 3
+2024-09-01 19:43:35,212 - __main__ - INFO - Number of points: 2560, Dimension of each point: 3
+2024-09-01 19:43:35,222 - __main__ - INFO - Number of Training Samples: 8
+2024-09-01 19:43:35,222 - __main__ - INFO - Number of Test Samples: 2
+2024-09-01 19:43:35,222 - __main__ - INFO - Train dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 19:43:35,223 - __main__ - INFO - Test dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 19:43:35,333 - __main__ - INFO - Original sample size: torch.Size([2048, 3])
+2024-09-01 19:43:35,333 - __main__ - INFO - Transformed sample size: torch.Size([2048, 3])
+2024-09-01 19:43:39,082 - __main__ - INFO - Epoch [0/1], Loss G: 1779.4637, Loss D_A: 0.8286, Loss D_B: 0.6729
+2024-09-01 19:43:39,082 - __main__ - INFO - Chamfer Distance A: 10.5925, Chamfer Distance B: 1698.9758, MMD-CD: 10.5925
+2024-09-01 19:43:39,585 - __main__ - INFO - Shape of real_A: torch.Size([1, 3, 64, 64])
+2024-09-01 19:43:39,585 - __main__ - INFO - Shape of real_B before expanding: torch.Size([1, 1, 64, 64])
+2024-09-01 19:43:39,585 - __main__ - INFO - Shape of real_B: torch.Size([1, 3, 64, 64])
+2024-09-01 19:43:39,632 - __main__ - INFO - Test Loss: 12.8598
+2024-09-01 19:43:39,632 - __main__ - INFO - Chamfer Distance A: 0.0077
+2024-09-01 19:43:39,633 - __main__ - INFO - Chamfer Distance B: 0.0350
+2024-09-01 19:43:39,633 - __main__ - INFO - MMD_CD: 1.4732
+2024-09-01 19:43:55,432 - __main__ - INFO - Number of Samples: 10
+2024-09-01 19:43:55,433 - __main__ - INFO - Sample: Data(x=[2522, 3], y=[2522], pos=[2522, 3], category=[1])
+2024-09-01 19:43:55,433 - __main__ - INFO - Number of points: 2522, Dimension of each point: 3
+2024-09-01 19:43:55,502 - __main__ - INFO - Number of points: 2605, Dimension of each point: 3
+2024-09-01 19:43:55,587 - __main__ - INFO - Number of Training Samples: 8
+2024-09-01 19:43:55,587 - __main__ - INFO - Number of Test Samples: 2
+2024-09-01 19:43:55,588 - __main__ - INFO - Train dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 19:43:55,589 - __main__ - INFO - Test dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 19:43:55,698 - __main__ - INFO - Original sample size: torch.Size([2048, 3])
+2024-09-01 19:43:55,698 - __main__ - INFO - Transformed sample size: torch.Size([2048, 3])
+2024-09-01 19:43:59,447 - __main__ - INFO - Epoch [0/1], Loss G: 1851.6830, Loss D_A: 0.7499, Loss D_B: 0.9598
+2024-09-01 19:43:59,448 - __main__ - INFO - Chamfer Distance A: 9.2551, Chamfer Distance B: 1772.2155, MMD-CD: 9.2552
+2024-09-01 19:43:59,908 - __main__ - INFO - Shape of real_A: torch.Size([1, 3, 64, 64])
+2024-09-01 19:43:59,908 - __main__ - INFO - Shape of real_B before expanding: torch.Size([1, 1, 64, 64])
+2024-09-01 19:43:59,909 - __main__ - INFO - Shape of real_B: torch.Size([1, 3, 64, 64])
+2024-09-01 19:43:59,970 - __main__ - INFO - Test Loss: 13.9041
+2024-09-01 19:43:59,970 - __main__ - INFO - Chamfer Distance A: 0.0066
+2024-09-01 19:43:59,970 - __main__ - INFO - Chamfer Distance B: 0.0429
+2024-09-01 19:43:59,971 - __main__ - INFO - MMD_CD: 1.2667
+2024-09-01 19:45:51,456 - __main__ - INFO - Number of Samples: 100
+2024-09-01 19:45:51,457 - __main__ - INFO - Sample: Data(x=[2565, 3], y=[2565], pos=[2565, 3], category=[1])
+2024-09-01 19:45:51,457 - __main__ - INFO - Number of points: 2565, Dimension of each point: 3
+2024-09-01 19:45:51,529 - __main__ - INFO - Number of points: 2643, Dimension of each point: 3
+2024-09-01 19:45:51,551 - __main__ - INFO - Number of Training Samples: 80
+2024-09-01 19:45:51,551 - __main__ - INFO - Number of Test Samples: 20
+2024-09-01 19:45:51,551 - __main__ - INFO - Train dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 19:45:51,552 - __main__ - INFO - Test dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 19:45:51,667 - __main__ - INFO - Original sample size: torch.Size([2048, 3])
+2024-09-01 19:45:51,667 - __main__ - INFO - Transformed sample size: torch.Size([2048, 3])
+2024-09-01 19:45:55,968 - __main__ - INFO - Epoch [0/1], Loss G: 15542.3967, Loss D_A: 1.1704, Loss D_B: 0.6373
+2024-09-01 19:45:55,968 - __main__ - INFO - Chamfer Distance A: 27.1703, Chamfer Distance B: 15368.1732, MMD-CD: 27.1703
+2024-09-01 19:46:29,407 - __main__ - INFO - Number of Samples: 10
+2024-09-01 19:46:29,407 - __main__ - INFO - Sample: Data(x=[2498, 3], y=[2498], pos=[2498, 3], category=[1])
+2024-09-01 19:46:29,407 - __main__ - INFO - Number of points: 2498, Dimension of each point: 3
+2024-09-01 19:46:29,474 - __main__ - INFO - Number of points: 2515, Dimension of each point: 3
+2024-09-01 19:46:29,589 - __main__ - INFO - Number of Training Samples: 8
+2024-09-01 19:46:29,589 - __main__ - INFO - Number of Test Samples: 2
+2024-09-01 19:46:29,593 - __main__ - INFO - Train dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 19:46:29,594 - __main__ - INFO - Test dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 19:46:29,703 - __main__ - INFO - Original sample size: torch.Size([2048, 3])
+2024-09-01 19:46:29,704 - __main__ - INFO - Transformed sample size: torch.Size([2048, 3])
+2024-09-01 19:46:33,428 - __main__ - INFO - Epoch [0/1], Loss G: 1791.8893, Loss D_A: 1.1565, Loss D_B: 0.7666
+2024-09-01 19:46:33,429 - __main__ - INFO - Chamfer Distance A: 10.7046, Chamfer Distance B: 1710.1078, MMD-CD: 10.7046
+2024-09-01 19:46:33,920 - __main__ - INFO - Shape of real_A: torch.Size([1, 3, 64, 64])
+2024-09-01 19:46:33,921 - __main__ - INFO - Shape of real_B before expanding: torch.Size([1, 1, 64, 64])
+2024-09-01 19:46:33,921 - __main__ - INFO - Shape of real_B: torch.Size([1, 3, 64, 64])
+2024-09-01 19:46:33,964 - __main__ - INFO - Test Loss: 14.1220
+2024-09-01 19:46:33,964 - __main__ - INFO - Chamfer Distance A: 0.0079
+2024-09-01 19:46:33,964 - __main__ - INFO - Chamfer Distance B: 0.0380
+2024-09-01 19:46:33,964 - __main__ - INFO - MMD_CD: 1.5143
+2024-09-01 19:46:37,975 - __main__ - INFO - Number of Samples: 100
+2024-09-01 19:46:37,976 - __main__ - INFO - Sample: Data(x=[2595, 3], y=[2595], pos=[2595, 3], category=[1])
+2024-09-01 19:46:37,976 - __main__ - INFO - Number of points: 2595, Dimension of each point: 3
+2024-09-01 19:46:38,048 - __main__ - INFO - Number of points: 2696, Dimension of each point: 3
+2024-09-01 19:46:38,179 - __main__ - INFO - Number of Training Samples: 80
+2024-09-01 19:46:38,179 - __main__ - INFO - Number of Test Samples: 20
+2024-09-01 19:46:38,179 - __main__ - INFO - Train dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 19:46:38,180 - __main__ - INFO - Test dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 19:46:38,295 - __main__ - INFO - Original sample size: torch.Size([2048, 3])
+2024-09-01 19:46:38,296 - __main__ - INFO - Transformed sample size: torch.Size([2048, 3])
+2024-09-01 19:46:42,492 - __main__ - INFO - Epoch [0/1], Loss G: 15771.3867, Loss D_A: 1.2007, Loss D_B: 0.7002
+2024-09-01 19:46:42,492 - __main__ - INFO - Chamfer Distance A: 19.0656, Chamfer Distance B: 15613.2225, MMD-CD: 19.0657
+2024-09-01 19:49:11,558 - __main__ - INFO - Number of Samples: 100
+2024-09-01 19:49:11,559 - __main__ - INFO - Sample: Data(x=[2616, 3], y=[2616], pos=[2616, 3], category=[1])
+2024-09-01 19:49:11,559 - __main__ - INFO - Number of points: 2616, Dimension of each point: 3
+2024-09-01 19:49:11,626 - __main__ - INFO - Number of points: 2546, Dimension of each point: 3
+2024-09-01 19:49:11,649 - __main__ - INFO - Number of Training Samples: 80
+2024-09-01 19:49:11,649 - __main__ - INFO - Number of Test Samples: 20
+2024-09-01 19:49:11,649 - __main__ - INFO - Train dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 19:49:11,650 - __main__ - INFO - Test dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 19:49:11,765 - __main__ - INFO - Original sample size: torch.Size([2048, 3])
+2024-09-01 19:49:11,765 - __main__ - INFO - Transformed sample size: torch.Size([2048, 3])
+2024-09-01 19:49:16,250 - __main__ - INFO - Epoch [0/1], Loss G: 15214.2131, Loss D_A: 1.1613, Loss D_B: 0.7058
+2024-09-01 19:49:16,250 - __main__ - INFO - Chamfer Distance A: 21.5999, Chamfer Distance B: 15053.3377, MMD-CD: 21.6000
+2024-09-01 19:50:04,835 - __main__ - INFO - Number of Samples: 100
+2024-09-01 19:50:04,836 - __main__ - INFO - Sample: Data(x=[2609, 3], y=[2609], pos=[2609, 3], category=[1])
+2024-09-01 19:50:04,836 - __main__ - INFO - Number of points: 2609, Dimension of each point: 3
+2024-09-01 19:50:04,908 - __main__ - INFO - Number of points: 2697, Dimension of each point: 3
+2024-09-01 19:50:04,931 - __main__ - INFO - Number of Training Samples: 80
+2024-09-01 19:50:04,931 - __main__ - INFO - Number of Test Samples: 20
+2024-09-01 19:50:04,931 - __main__ - INFO - Train dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 19:50:04,932 - __main__ - INFO - Test dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 19:50:05,046 - __main__ - INFO - Original sample size: torch.Size([2048, 3])
+2024-09-01 19:50:05,046 - __main__ - INFO - Transformed sample size: torch.Size([2048, 3])
+2024-09-01 19:51:33,159 - __main__ - INFO - Number of Samples: 100
+2024-09-01 19:51:33,160 - __main__ - INFO - Sample: Data(x=[2643, 3], y=[2643], pos=[2643, 3], category=[1])
+2024-09-01 19:51:33,160 - __main__ - INFO - Number of points: 2643, Dimension of each point: 3
+2024-09-01 19:51:33,227 - __main__ - INFO - Number of points: 2516, Dimension of each point: 3
+2024-09-01 19:51:33,356 - __main__ - INFO - Number of Training Samples: 80
+2024-09-01 19:51:33,356 - __main__ - INFO - Number of Test Samples: 20
+2024-09-01 19:51:33,356 - __main__ - INFO - Train dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 19:51:33,357 - __main__ - INFO - Test dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 19:51:33,475 - __main__ - INFO - Original sample size: torch.Size([2048, 3])
+2024-09-01 19:51:33,475 - __main__ - INFO - Transformed sample size: torch.Size([2048, 3])
+2024-09-01 19:52:36,196 - __main__ - INFO - Number of Samples: 100
+2024-09-01 19:52:36,196 - __main__ - INFO - Sample: Data(x=[2547, 3], y=[2547], pos=[2547, 3], category=[1])
+2024-09-01 19:52:36,196 - __main__ - INFO - Number of points: 2547, Dimension of each point: 3
+2024-09-01 19:52:36,266 - __main__ - INFO - Number of points: 2625, Dimension of each point: 3
+2024-09-01 19:52:36,271 - __main__ - INFO - Number of Training Samples: 80
+2024-09-01 19:52:36,271 - __main__ - INFO - Number of Test Samples: 20
+2024-09-01 19:52:36,272 - __main__ - INFO - Train dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 19:52:36,272 - __main__ - INFO - Test dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 19:52:36,379 - __main__ - INFO - Original sample size: torch.Size([2048, 3])
+2024-09-01 19:52:36,379 - __main__ - INFO - Transformed sample size: torch.Size([2048, 3])
+2024-09-01 19:55:38,983 - __main__ - INFO - Number of Samples: 100
+2024-09-01 19:55:38,986 - __main__ - INFO - Sample: Data(x=[2716, 3], y=[2716], pos=[2716, 3], category=[1])
+2024-09-01 19:55:38,987 - __main__ - INFO - Number of points: 2716, Dimension of each point: 3
+2024-09-01 19:55:39,058 - __main__ - INFO - Number of points: 2549, Dimension of each point: 3
+2024-09-01 19:55:39,171 - __main__ - INFO - Number of Training Samples: 80
+2024-09-01 19:55:39,172 - __main__ - INFO - Number of Test Samples: 20
+2024-09-01 19:55:39,220 - __main__ - INFO - Train dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 19:55:39,234 - __main__ - INFO - Test dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 20:04:06,304 - __main__ - INFO - Number of Samples: 100
+2024-09-01 20:04:06,307 - __main__ - INFO - Sample: Data(x=[2483, 3], y=[2483], pos=[2483, 3], category=[1])
+2024-09-01 20:04:06,308 - __main__ - INFO - Number of points: 2483, Dimension of each point: 3
+2024-09-01 20:04:06,381 - __main__ - INFO - Number of points: 2635, Dimension of each point: 3
+2024-09-01 20:04:06,423 - __main__ - INFO - Number of Training Samples: 80
+2024-09-01 20:04:06,426 - __main__ - INFO - Number of Test Samples: 20
+2024-09-01 20:04:06,428 - __main__ - INFO - Train dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 20:04:06,430 - __main__ - INFO - Test dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 20:08:36,806 - __main__ - INFO - Number of Samples: 10
+2024-09-01 20:08:36,806 - __main__ - INFO - Sample: Data(x=[2608, 3], y=[2608], pos=[2608, 3], category=[1])
+2024-09-01 20:08:36,807 - __main__ - INFO - Number of points: 2608, Dimension of each point: 3
+2024-09-01 20:08:36,877 - __main__ - INFO - Number of points: 2666, Dimension of each point: 3
+2024-09-01 20:08:36,883 - __main__ - INFO - Number of Training Samples: 8
+2024-09-01 20:08:36,883 - __main__ - INFO - Number of Test Samples: 2
+2024-09-01 20:08:36,883 - __main__ - INFO - Train dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 20:08:36,884 - __main__ - INFO - Test dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 20:08:36,990 - __main__ - INFO - Original sample size: torch.Size([2048, 3])
+2024-09-01 20:08:36,990 - __main__ - INFO - Transformed sample size: torch.Size([2048, 3])
+2024-09-01 20:09:27,109 - __main__ - INFO - Number of Samples: 10
+2024-09-01 20:09:27,110 - __main__ - INFO - Sample: Data(x=[2567, 3], y=[2567], pos=[2567, 3], category=[1])
+2024-09-01 20:09:27,110 - __main__ - INFO - Number of points: 2567, Dimension of each point: 3
+2024-09-01 20:09:27,180 - __main__ - INFO - Number of points: 2674, Dimension of each point: 3
+2024-09-01 20:09:27,191 - __main__ - INFO - Number of Training Samples: 8
+2024-09-01 20:09:27,191 - __main__ - INFO - Number of Test Samples: 2
+2024-09-01 20:09:27,191 - __main__ - INFO - Train dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 20:09:27,192 - __main__ - INFO - Test dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 20:09:27,301 - __main__ - INFO - Original sample size: torch.Size([2048, 3])
+2024-09-01 20:09:27,301 - __main__ - INFO - Transformed sample size: torch.Size([2048, 3])
+2024-09-01 20:09:31,038 - __main__ - INFO - Epoch [0/1], Loss G: 1805.8245, Loss D_A: 0.5151, Loss D_B: 0.5721
+2024-09-01 20:09:31,038 - __main__ - INFO - Chamfer Distance A: 9.6213, Chamfer Distance B: 1727.9955, MMD-CD: 9.6213
+2024-09-01 20:09:31,458 - __main__ - INFO - Shape of real_A: torch.Size([1, 3, 64, 64])
+2024-09-01 20:09:31,458 - __main__ - INFO - Shape of real_B before expanding: torch.Size([1, 1, 64, 64])
+2024-09-01 20:09:31,458 - __main__ - INFO - Shape of real_B: torch.Size([1, 3, 64, 64])
+2024-09-01 20:09:31,509 - __main__ - INFO - Test Loss: 11.9640
+2024-09-01 20:09:31,509 - __main__ - INFO - Chamfer Distance A: 0.0070
+2024-09-01 20:09:31,509 - __main__ - INFO - Chamfer Distance B: 0.0383
+2024-09-01 20:09:31,509 - __main__ - INFO - MMD_CD: 1.3427
+2024-09-01 20:10:18,742 - __main__ - INFO - Number of Samples: 10
+2024-09-01 20:10:18,743 - __main__ - INFO - Sample: Data(x=[2659, 3], y=[2659], pos=[2659, 3], category=[1])
+2024-09-01 20:10:18,743 - __main__ - INFO - Number of points: 2659, Dimension of each point: 3
+2024-09-01 20:10:18,806 - __main__ - INFO - Number of points: 2369, Dimension of each point: 3
+2024-09-01 20:10:18,816 - __main__ - INFO - Number of Training Samples: 8
+2024-09-01 20:10:18,816 - __main__ - INFO - Number of Test Samples: 2
+2024-09-01 20:10:18,817 - __main__ - INFO - Train dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 20:10:18,817 - __main__ - INFO - Test dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 20:10:18,926 - __main__ - INFO - Original sample size: torch.Size([2048, 3])
+2024-09-01 20:10:18,927 - __main__ - INFO - Transformed sample size: torch.Size([2048, 3])
+2024-09-01 20:10:20,677 - __main__ - INFO - Shape of real_A: torch.Size([1, 3, 64, 64])
+2024-09-01 20:10:20,681 - __main__ - INFO - Shape of real_B before expanding: torch.Size([1, 1, 64, 64])
+2024-09-01 20:10:20,681 - __main__ - INFO - Shape of real_B: torch.Size([1, 3, 64, 64])
+2024-09-01 20:10:22,479 - __main__ - INFO - Test Loss: 13.4723
+2024-09-01 20:10:22,480 - __main__ - INFO - Chamfer Distance A: 0.0080
+2024-09-01 20:10:22,480 - __main__ - INFO - Chamfer Distance B: 0.0368
+2024-09-01 20:10:22,480 - __main__ - INFO - MMD_CD: 1.5325
+2024-09-01 20:11:07,349 - __main__ - INFO - Number of Samples: 10
+2024-09-01 20:11:07,350 - __main__ - INFO - Sample: Data(x=[2647, 3], y=[2647], pos=[2647, 3], category=[1])
+2024-09-01 20:11:07,350 - __main__ - INFO - Number of points: 2647, Dimension of each point: 3
+2024-09-01 20:11:07,421 - __main__ - INFO - Number of points: 2709, Dimension of each point: 3
+2024-09-01 20:11:07,432 - __main__ - INFO - Number of Training Samples: 8
+2024-09-01 20:11:07,432 - __main__ - INFO - Number of Test Samples: 2
+2024-09-01 20:11:07,432 - __main__ - INFO - Train dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 20:11:07,433 - __main__ - INFO - Test dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 20:11:07,542 - __main__ - INFO - Original sample size: torch.Size([2048, 3])
+2024-09-01 20:11:07,542 - __main__ - INFO - Transformed sample size: torch.Size([2048, 3])
+2024-09-01 20:11:19,211 - __main__ - INFO - Number of Samples: 10
+2024-09-01 20:11:19,212 - __main__ - INFO - Sample: Data(x=[2519, 3], y=[2519], pos=[2519, 3], category=[1])
+2024-09-01 20:11:19,212 - __main__ - INFO - Number of points: 2519, Dimension of each point: 3
+2024-09-01 20:11:19,280 - __main__ - INFO - Number of points: 2586, Dimension of each point: 3
+2024-09-01 20:11:19,290 - __main__ - INFO - Number of Training Samples: 8
+2024-09-01 20:11:19,291 - __main__ - INFO - Number of Test Samples: 2
+2024-09-01 20:11:19,291 - __main__ - INFO - Train dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 20:11:19,291 - __main__ - INFO - Test dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 20:11:19,401 - __main__ - INFO - Original sample size: torch.Size([2048, 3])
+2024-09-01 20:11:19,401 - __main__ - INFO - Transformed sample size: torch.Size([2048, 3])
+2024-09-01 20:11:21,161 - __main__ - INFO - Shape of real_A: torch.Size([1, 3, 64, 64])
+2024-09-01 20:11:21,164 - __main__ - INFO - Shape of real_B before expanding: torch.Size([1, 1, 64, 64])
+2024-09-01 20:11:21,164 - __main__ - INFO - Shape of real_B: torch.Size([1, 3, 64, 64])
+2024-09-01 20:11:22,958 - __main__ - INFO - Test Loss: 12.9608
+2024-09-01 20:11:22,958 - __main__ - INFO - Chamfer Distance A: 0.0078
+2024-09-01 20:11:22,958 - __main__ - INFO - Chamfer Distance B: 0.0369
+2024-09-01 20:11:22,959 - __main__ - INFO - MMD_CD: 1.4900
+2024-09-01 20:12:16,209 - __main__ - INFO - Number of Samples: 10
+2024-09-01 20:12:16,210 - __main__ - INFO - Sample: Data(x=[2586, 3], y=[2586], pos=[2586, 3], category=[1])
+2024-09-01 20:12:16,210 - __main__ - INFO - Number of points: 2586, Dimension of each point: 3
+2024-09-01 20:12:16,271 - __main__ - INFO - Number of points: 2305, Dimension of each point: 3
+2024-09-01 20:12:16,281 - __main__ - INFO - Number of Training Samples: 8
+2024-09-01 20:12:16,281 - __main__ - INFO - Number of Test Samples: 2
+2024-09-01 20:12:16,281 - __main__ - INFO - Train dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 20:12:16,282 - __main__ - INFO - Test dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 20:12:16,390 - __main__ - INFO - Original sample size: torch.Size([2048, 3])
+2024-09-01 20:12:16,391 - __main__ - INFO - Transformed sample size: torch.Size([2048, 3])
+2024-09-01 20:12:35,927 - __main__ - INFO - Number of Samples: 10
+2024-09-01 20:12:35,927 - __main__ - INFO - Sample: Data(x=[2628, 3], y=[2628], pos=[2628, 3], category=[1])
+2024-09-01 20:12:35,927 - __main__ - INFO - Number of points: 2628, Dimension of each point: 3
+2024-09-01 20:12:35,994 - __main__ - INFO - Number of points: 2497, Dimension of each point: 3
+2024-09-01 20:12:36,004 - __main__ - INFO - Number of Training Samples: 8
+2024-09-01 20:12:36,004 - __main__ - INFO - Number of Test Samples: 2
+2024-09-01 20:12:36,005 - __main__ - INFO - Train dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 20:12:36,005 - __main__ - INFO - Test dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 20:12:36,116 - __main__ - INFO - Original sample size: torch.Size([2048, 3])
+2024-09-01 20:12:36,116 - __main__ - INFO - Transformed sample size: torch.Size([2048, 3])
+2024-09-01 20:12:37,869 - __main__ - INFO - Shape of real_A: torch.Size([1, 3, 64, 64])
+2024-09-01 20:12:37,872 - __main__ - INFO - Shape of real_B before expanding: torch.Size([1, 1, 64, 64])
+2024-09-01 20:12:37,872 - __main__ - INFO - Shape of real_B: torch.Size([1, 3, 64, 64])
+2024-09-01 20:12:39,666 - __main__ - INFO - Test Loss: 11.6896
+2024-09-01 20:12:39,666 - __main__ - INFO - Chamfer Distance A: 0.0080
+2024-09-01 20:12:39,666 - __main__ - INFO - Chamfer Distance B: 0.0286
+2024-09-01 20:12:39,666 - __main__ - INFO - MMD_CD: 1.5437
+2024-09-01 20:13:21,270 - __main__ - INFO - Number of Samples: 10
+2024-09-01 20:13:21,270 - __main__ - INFO - Sample: Data(x=[2527, 3], y=[2527], pos=[2527, 3], category=[1])
+2024-09-01 20:13:21,270 - __main__ - INFO - Number of points: 2527, Dimension of each point: 3
+2024-09-01 20:13:21,337 - __main__ - INFO - Number of points: 2538, Dimension of each point: 3
+2024-09-01 20:13:21,347 - __main__ - INFO - Number of Training Samples: 8
+2024-09-01 20:13:21,347 - __main__ - INFO - Number of Test Samples: 2
+2024-09-01 20:13:21,348 - __main__ - INFO - Train dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 20:13:21,348 - __main__ - INFO - Test dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 20:13:21,457 - __main__ - INFO - Original sample size: torch.Size([2048, 3])
+2024-09-01 20:13:21,457 - __main__ - INFO - Transformed sample size: torch.Size([2048, 3])
+2024-09-01 20:13:23,178 - __main__ - INFO - Shape of real_A: torch.Size([1, 3, 64, 64])
+2024-09-01 20:13:23,181 - __main__ - INFO - Shape of real_B before expanding: torch.Size([1, 1, 64, 64])
+2024-09-01 20:13:23,181 - __main__ - INFO - Shape of real_B: torch.Size([1, 3, 64, 64])
+2024-09-01 20:13:24,980 - __main__ - INFO - Test Loss: 14.1220
+2024-09-01 20:13:24,980 - __main__ - INFO - Chamfer Distance A: 0.0088
+2024-09-01 20:13:24,980 - __main__ - INFO - Chamfer Distance B: 0.0472
+2024-09-01 20:13:24,980 - __main__ - INFO - MMD_CD: 1.6809
+2024-09-01 20:17:07,965 - __main__ - INFO - Number of Samples: 100
+2024-09-01 20:17:07,966 - __main__ - INFO - Sample: Data(x=[2648, 3], y=[2648], pos=[2648, 3], category=[1])
+2024-09-01 20:17:07,966 - __main__ - INFO - Number of points: 2648, Dimension of each point: 3
+2024-09-01 20:17:08,036 - __main__ - INFO - Number of points: 2666, Dimension of each point: 3
+2024-09-01 20:17:08,097 - __main__ - INFO - Number of Training Samples: 80
+2024-09-01 20:17:08,098 - __main__ - INFO - Number of Test Samples: 20
+2024-09-01 20:17:08,098 - __main__ - INFO - Train dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 20:17:08,099 - __main__ - INFO - Test dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-01 20:17:08,213 - __main__ - INFO - Original sample size: torch.Size([2048, 3])
+2024-09-01 20:17:08,213 - __main__ - INFO - Transformed sample size: torch.Size([2048, 3])
+2024-09-01 20:17:12,862 - __main__ - INFO - Epoch [0/1], Loss G: 15981.2193, Loss D_A: 1.3007, Loss D_B: 0.6876
+2024-09-01 20:17:12,862 - __main__ - INFO - Chamfer Distance A: 19.9986, Chamfer Distance B: 15820.1236, MMD-CD: 19.9987
+2024-09-02 22:05:43,978 - __main__ - INFO - Number of Samples: 10
+2024-09-02 22:05:43,979 - __main__ - INFO - Sample: Data(x=[2608, 3], y=[2608], pos=[2608, 3], category=[1])
+2024-09-02 22:05:43,979 - __main__ - INFO - Number of points: 2608, Dimension of each point: 3
+2024-09-02 22:05:44,045 - __main__ - INFO - Number of points: 2503, Dimension of each point: 3
+2024-09-02 22:05:44,061 - __main__ - INFO - Number of Training Samples: 8
+2024-09-02 22:05:44,061 - __main__ - INFO - Number of Test Samples: 2
+2024-09-02 22:05:44,062 - __main__ - INFO - Train dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-02 22:05:44,062 - __main__ - INFO - Test dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-02 22:05:44,168 - __main__ - INFO - Original sample size: torch.Size([2048, 3])
+2024-09-02 22:05:44,168 - __main__ - INFO - Transformed sample size: torch.Size([2048, 3])
+2024-09-02 22:05:48,801 - __main__ - INFO - Epoch [0/1], Loss G: 9.2859, Loss D_A: 0.7053, Loss D_B: 0.6711
+2024-09-02 22:05:48,801 - __main__ - INFO - Chamfer Distance A: 0.1674, Chamfer Distance B: 1.1202, MMD-CD: 0.1674
