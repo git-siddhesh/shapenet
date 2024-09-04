@@ -968,3 +968,57 @@
 2024-09-02 22:05:44,168 - __main__ - INFO - Transformed sample size: torch.Size([2048, 3])
 2024-09-02 22:05:48,801 - __main__ - INFO - Epoch [0/1], Loss G: 9.2859, Loss D_A: 0.7053, Loss D_B: 0.6711
 2024-09-02 22:05:48,801 - __main__ - INFO - Chamfer Distance A: 0.1674, Chamfer Distance B: 1.1202, MMD-CD: 0.1674
+2024-09-04 22:09:21,377 - __main__ - INFO - Number of Samples: 100
+2024-09-04 22:09:21,396 - __main__ - INFO - Sample: Data(x=[2581, 3], y=[2581], pos=[2581, 3], category=[1])
+2024-09-04 22:09:21,396 - __main__ - INFO - Number of points: 2581, Dimension of each point: 3
+2024-09-04 22:09:21,498 - __main__ - INFO - Number of points: 2490, Dimension of each point: 3
+2024-09-04 22:09:21,905 - __main__ - INFO - Number of Training Samples: 80
+2024-09-04 22:09:21,905 - __main__ - INFO - Number of Test Samples: 20
+2024-09-04 22:09:21,906 - __main__ - INFO - Train dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-04 22:09:21,906 - __main__ - INFO - Test dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-04 22:09:22,015 - __main__ - INFO - Original sample size: torch.Size([2048, 3])
+2024-09-04 22:09:22,015 - __main__ - INFO - Transformed sample size: torch.Size([2048, 3])
+2024-09-04 22:09:51,353 - __main__ - INFO - Epoch [0/1], Loss G: 4.7795, Loss D_A: 0.5146, Loss D_B: 0.5326
+2024-09-04 22:09:51,354 - __main__ - INFO - Chamfer Distance A: 0.1771, Chamfer Distance B: 0.8354, MMD-CD: 0.1771
+2024-09-04 22:12:36,366 - __main__ - INFO - Number of Samples: 100
+2024-09-04 22:12:36,366 - __main__ - INFO - Sample: Data(x=[2570, 3], y=[2570], pos=[2570, 3], category=[1])
+2024-09-04 22:12:36,366 - __main__ - INFO - Number of points: 2570, Dimension of each point: 3
+2024-09-04 22:12:36,434 - __main__ - INFO - Number of points: 2533, Dimension of each point: 3
+2024-09-04 22:12:36,576 - __main__ - INFO - Number of Training Samples: 80
+2024-09-04 22:12:36,576 - __main__ - INFO - Number of Test Samples: 20
+2024-09-04 22:12:36,577 - __main__ - INFO - Train dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-04 22:12:36,577 - __main__ - INFO - Test dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-04 22:12:36,685 - __main__ - INFO - Original sample size: torch.Size([2048, 3])
+2024-09-04 22:12:36,685 - __main__ - INFO - Transformed sample size: torch.Size([2048, 3])
+2024-09-04 22:12:48,424 - __main__ - INFO - Epoch [0/1], Loss G: 4.6211, Loss D_A: 0.5268, Loss D_B: 0.5108
+2024-09-04 22:12:48,425 - __main__ - INFO - Chamfer Distance A: 0.1807, Chamfer Distance B: 0.8434, MMD-CD: 0.1807
+2024-09-04 22:12:48,911 - __main__ - INFO - Shape of real_A: torch.Size([1, 3, 64, 32])
+2024-09-04 22:25:36,582 - __main__ - INFO - Number of Samples: 100
+2024-09-04 22:25:36,582 - __main__ - INFO - Sample: Data(x=[2522, 3], y=[2522], pos=[2522, 3], category=[1])
+2024-09-04 22:25:36,582 - __main__ - INFO - Number of points: 2522, Dimension of each point: 3
+2024-09-04 22:25:36,650 - __main__ - INFO - Number of points: 2545, Dimension of each point: 3
+2024-09-04 22:25:36,752 - __main__ - INFO - Number of Training Samples: 80
+2024-09-04 22:25:36,752 - __main__ - INFO - Number of Test Samples: 20
+2024-09-04 22:25:36,753 - __main__ - INFO - Train dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-04 22:25:36,753 - __main__ - INFO - Test dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-04 22:25:36,871 - __main__ - INFO - Original sample size: torch.Size([2048, 3])
+2024-09-04 22:25:36,871 - __main__ - INFO - Transformed sample size: torch.Size([2048, 3])
+2024-09-04 22:27:49,823 - __main__ - INFO - Epoch [0/1], Loss G: 4.7864, Loss D_A: 0.4996, Loss D_B: 0.5185
+2024-09-04 22:27:49,823 - __main__ - INFO - Chamfer Distance A: 0.1730, Chamfer Distance B: 0.8780, MMD-CD: 0.1730
+2024-09-04 22:27:50,307 - __main__ - INFO - Shape of real_A: torch.Size([1, 3, 64, 32])
+2024-09-04 22:33:31,934 - __main__ - INFO - Number of Samples: 100
+2024-09-04 22:33:31,934 - __main__ - INFO - Sample: Data(x=[2503, 3], y=[2503], pos=[2503, 3], category=[1])
+2024-09-04 22:33:31,934 - __main__ - INFO - Number of points: 2503, Dimension of each point: 3
+2024-09-04 22:33:32,004 - __main__ - INFO - Number of points: 2591, Dimension of each point: 3
+2024-09-04 22:33:32,104 - __main__ - INFO - Number of Training Samples: 80
+2024-09-04 22:33:32,104 - __main__ - INFO - Number of Test Samples: 20
+2024-09-04 22:33:32,104 - __main__ - INFO - Train dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-04 22:33:32,105 - __main__ - INFO - Test dataset[0]: Data(x=[2048, 3], y=[2048], pos=[2048, 3], category=[1])
+2024-09-04 22:33:32,221 - __main__ - INFO - Original sample size: torch.Size([2048, 3])
+2024-09-04 22:33:32,221 - __main__ - INFO - Transformed sample size: torch.Size([2048, 3])
+2024-09-04 22:33:44,958 - __main__ - INFO - Epoch [0/1], Loss G: 4.5625, Loss D_A: 0.5255, Loss D_B: 0.4940
+2024-09-04 22:33:44,958 - __main__ - INFO - Chamfer Distance A: 0.1861, Chamfer Distance B: 0.8133, MMD-CD: 0.1861
+2024-09-04 22:33:46,338 - __main__ - INFO - Test Loss: 1.7754
+2024-09-04 22:33:46,339 - __main__ - INFO - Chamfer Distance A: 0.0009
+2024-09-04 22:33:46,339 - __main__ - INFO - Chamfer Distance B: 0.0022
+2024-09-04 22:33:46,339 - __main__ - INFO - MMD_CD: 0.1492

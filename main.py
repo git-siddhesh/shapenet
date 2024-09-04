@@ -50,7 +50,7 @@ os.makedirs(PLOT_PATH, exist_ok=True)
 
 
 
-dataset = ShapeNet(root=DATASET_PATH, categories=["Airplane"]).shuffle()[:10]
+dataset = ShapeNet(root=DATASET_PATH, categories=["Airplane"]).shuffle()[:100]
 # Provide the correct path to the extracted dataset
 # dataset = ShapeNet(root=dataset_path, categories=["Table", "Lamp", "Guitar", "Motorbike"]).shuffle()[:1000]
 
@@ -165,7 +165,6 @@ for epoch in range(EPOCHS):
 
         # Calculate batch size and number of points
         batch_size = int(real_B.max().item() + 1)
-        print("----------------",batch_size)
         num_points = real_A.size(0) // batch_size
 
         # Ensure the calculated num_points is correct
@@ -175,7 +174,6 @@ for epoch in range(EPOCHS):
         real_A = real_A.view(batch_size, 3, num_points).contiguous()
         real_A = real_A.unsqueeze(3).permute(0, 1, 3, 2)  # Shape: [batch_size, 3, 1, num_points]
         real_B = real_B.view(batch_size, 1, num_points).expand(-1, 3, -1).unsqueeze(2)  # Shape: [batch_size, 3, 1, num_points]
-
         # Ensure the lengths match in the expected dimension
         if real_A.size(3) != real_B.size(3):
             min_size = min(real_A.size(3), real_B.size(3))
@@ -305,31 +303,35 @@ total_chamfer_B = 0
 normalization_factor = 1e-3
 
 for i, data in enumerate(tqdm(test_loader)):
-    # Access data attributes directly
-    print(data)
-    real_A = data.pos.to(device)
-    real_B = data.batch.to(device)  # Adjust based on your actual data structure
-    print(real_A.shape, real_B.shape)
+    # Assuming 'data' is a PyTorch Geometric Data object
+    real_A = data.pos.to(device).float()  # Convert to float
+    real_B = data.batch.to(device).float()  # Convert to float
 
-    # Convert real_A to float and adjust shape for convolutional layers
-    real_A = real_A.float().unsqueeze(0).permute(0, 2, 1)  # Shape: [1, 3, num_points]
-    print(real_A.shape)
-    real_A = real_A.view(BATCH_SIZE, 3, 64, 64)  # Reshape real_A to match [batch_size, channels, height, width]
-    print(real_A.shape)
-    logger.info(f'Shape of real_A: {real_A.shape}')
+    # Calculate batch size and number of points
+    batch_size = int(real_B.max().item() + 1)
+    num_points = real_A.size(0) // batch_size
 
-    # Ensure real_B has the correct shape for convolutional layers
-    if real_B.dim() == 1:
-        side_length = int(real_B.size(0)**0.5)
-        real_B = real_B.float().view(1, 1, side_length, side_length)  # Reshape into square dimensions
-    else:
-        side_length = int(real_B.size(1)**0.5)
-        real_B = real_B.float().view(1, 1, side_length, side_length)  # Reshape into square dimensions
-    logger.info(f'Shape of real_B before expanding: {real_B.shape}')
+    # Ensure the calculated num_points is correct
+    if real_A.size(0) % batch_size != 0:
+        raise ValueError("The number of points is not divisible by batch size")
 
-    # Adjust the number of channels and reshape to match expected input shape
-    real_B = real_B.expand(-1, 3, -1, -1)  # Shape: [1, 3, height, width]
-    logger.info(f'Shape of real_B: {real_B.shape}')
+    real_A = real_A.view(batch_size, 3, num_points).contiguous()
+    real_A = real_A.unsqueeze(3).permute(0, 1, 3, 2)  # Shape: [batch_size, 3, 1, num_points]
+    real_B = real_B.view(batch_size, 1, num_points).expand(-1, 3, -1).unsqueeze(2)  # Shape: [batch_size, 3, 1, num_points]
+    # Ensure the lengths match in the expected dimension
+    if real_A.size(3) != real_B.size(3):
+        min_size = min(real_A.size(3), real_B.size(3))
+        real_A = real_A[:, :, :, :min_size]
+        real_B = real_B[:, :, :, :min_size]
+
+    # Resize inputs to smaller size suitable for your model
+    real_A = F.interpolate(real_A, size=(TARGET_SIZE, TARGET_SIZE), mode='nearest')
+    real_B = F.interpolate(real_B, size=(TARGET_SIZE, TARGET_SIZE), mode='nearest')
+
+    # Zero gradients for all optimizers
+    optimizer_G.zero_grad()
+    optimizer_D_A.zero_grad()
+    optimizer_D_B.zero_grad()
 
     with autocast():
         real_A = real_A.half()  # Convert inputs to float16
@@ -359,8 +361,7 @@ for i, data in enumerate(tqdm(test_loader)):
         mmd_cd = mmd_cd_loss(real_A, fake_A) * normalization_factor
 
         # Combined loss
-        loss_G = (loss_G_A2B + loss_G_B2A + loss_cycle_A + loss_cycle_B +
-                    chamfer_distance_A + chamfer_distance_B + mmd_cd)
+        loss_G = (loss_G_A2B + loss_G_B2A + loss_cycle_A + loss_cycle_B + chamfer_distance_A + chamfer_distance_B + mmd_cd)
         total_loss += loss_G.item()
 
         # Accumulate Chamfer distances
